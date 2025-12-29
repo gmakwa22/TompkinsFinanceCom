@@ -517,17 +517,19 @@ mark {
 }
 
 /* Shining Button Effect */
+/* GOLD GRADIENT: Change background back to linear-gradient(45deg, #667eea, #764ba2) and remove color to revert to original purple/blue */
 .shine-button {
   position: relative;
   overflow: hidden;
-  background: linear-gradient(45deg, #667eea, #764ba2);
+  background: linear-gradient(135deg, #FFD700 0%, #FFA500 50%, #FFD700 100%);
   border: none;
   border-radius: 50px;
   font-weight: bold;
   text-transform: uppercase;
   letter-spacing: 1px;
-  box-shadow: 0 10px 30px rgba(102, 126, 234, 0.3);
+  box-shadow: 0 10px 30px rgba(255, 215, 0, 0.3);
   transition: all 0.3s ease;
+  color: #000000 !important;
 }
 
 .shine-button::before {
@@ -547,7 +549,8 @@ mark {
 
 .shine-button:hover {
   transform: translateY(-2px);
-  box-shadow: 0 15px 40px rgba(102, 126, 234, 0.4);
+  box-shadow: 0 15px 40px rgba(255, 215, 0, 0.4);
+  color: #000000 !important;
 }
 
 .shine-button:active {
@@ -557,13 +560,13 @@ mark {
 /* Pulsing Animation */
 @keyframes pulse {
   0% {
-    box-shadow: 0 10px 30px rgba(102, 126, 234, 0.3);
+    box-shadow: 0 10px 30px rgba(255, 215, 0, 0.3);
   }
   50% {
-    box-shadow: 0 10px 30px rgba(102, 126, 234, 0.6), 0 0 0 10px rgba(102, 126, 234, 0.1);
+    box-shadow: 0 10px 30px rgba(255, 215, 0, 0.6), 0 0 0 10px rgba(255, 215, 0, 0.1);
   }
   100% {
-    box-shadow: 0 10px 30px rgba(102, 126, 234, 0.3);
+    box-shadow: 0 10px 30px rgba(255, 215, 0, 0.3);
   }
 }
 
@@ -574,10 +577,10 @@ mark {
 /* Glow Effect */
 @keyframes glow {
   0%, 100% {
-    box-shadow: 0 10px 30px rgba(102, 126, 234, 0.3);
+    box-shadow: 0 10px 30px rgba(255, 215, 0, 0.3);
   }
   50% {
-    box-shadow: 0 10px 30px rgba(102, 126, 234, 0.6), 0 0 20px rgba(102, 126, 234, 0.4);
+    box-shadow: 0 10px 30px rgba(255, 215, 0, 0.6), 0 0 20px rgba(255, 215, 0, 0.4);
   }
 }
 

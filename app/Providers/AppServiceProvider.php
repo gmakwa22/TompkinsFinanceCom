@@ -26,7 +26,7 @@ class AppServiceProvider extends ServiceProvider
   View::share('privaddress', '330 St. Mary Avenue Suite 300');
   View::share('privcity', 'Houston');
   View::share('privprov', 'TX');
-  View::share('privphone', '(877) 409-6855');
+  View::share('privphone', '(XXX) XXX-XXXX');
   View::share('privpostal', 'R3C 3Z5');
   View::share('privcountry', 'USA');
   View::share('privemail', 'privacy@tompkinsfinance.com');

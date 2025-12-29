@@ -177,16 +177,17 @@
     color: #ffffff !important;
 }
 
+/* GOLD GRADIENT: Change background back to linear-gradient(45deg, #27ae60, #2ecc71) and color to #ffffff to revert to original green */
 .apply-btn {
-    background: linear-gradient(45deg, #27ae60, #2ecc71) !important;
-    color: #ffffff !important;
+    background: linear-gradient(135deg, #FFD700 0%, #FFA500 50%, #FFD700 100%) !important;
+    color: #000000 !important;
     font-weight: 600;
     text-transform: uppercase;
     letter-spacing: 0.5px;
     padding: 0.8rem 0.8rem !important;
     margin-left: 1rem !important;
     border-radius: 25px;
-    box-shadow: 0 4px 15px rgba(39, 174, 96, 0.3);
+    box-shadow: 0 4px 15px rgba(255, 215, 0, 0.3);
     transition: all 0.3s ease;
     position: relative;
     font-size: 1.1rem;
@@ -211,30 +212,30 @@
 
 .apply-btn:hover {
     transform: translateY(-2px);
-    box-shadow: 0 6px 20px rgba(39, 174, 96, 0.4);
-    color: #ffffff !important;
+    box-shadow: 0 6px 20px rgba(255, 215, 0, 0.4);
+    color: #000000 !important;
     animation: navGlow 1s infinite;
 }
 
 /* Navigation Apply Button Animations */
 @keyframes navPulse {
     0% {
-        box-shadow: 0 4px 15px rgba(39, 174, 96, 0.3);
+        box-shadow: 0 4px 15px rgba(255, 215, 0, 0.3);
     }
     50% {
-        box-shadow: 0 4px 15px rgba(39, 174, 96, 0.6), 0 0 0 8px rgba(39, 174, 96, 0.1);
+        box-shadow: 0 4px 15px rgba(255, 215, 0, 0.6), 0 0 0 8px rgba(255, 215, 0, 0.1);
     }
     100% {
-        box-shadow: 0 4px 15px rgba(39, 174, 96, 0.3);
+        box-shadow: 0 4px 15px rgba(255, 215, 0, 0.3);
     }
 }
 
 @keyframes navGlow {
     0%, 100% {
-        box-shadow: 0 6px 20px rgba(39, 174, 96, 0.4);
+        box-shadow: 0 6px 20px rgba(255, 215, 0, 0.4);
     }
     50% {
-        box-shadow: 0 6px 20px rgba(39, 174, 96, 0.6), 0 0 20px rgba(39, 174, 96, 0.4);
+        box-shadow: 0 6px 20px rgba(255, 215, 0, 0.6), 0 0 20px rgba(255, 215, 0, 0.4);
     }
 }
 

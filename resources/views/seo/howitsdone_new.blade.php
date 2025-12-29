@@ -1,5 +1,6 @@
 <!-- Modern Hero Section with Animated Counters -->
-<section class="page-section-ptb theme-bg pgs-background custom-bg-image" style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); position: relative; overflow: hidden;">
+{{-- TEAL-PURPLE GRADIENT: Change background back to linear-gradient(135deg, #667eea 0%, #764ba2 100%) to revert to original purple/blue --}}
+<section class="page-section-ptb theme-bg pgs-background custom-bg-image" style="background: #360033; background: -webkit-linear-gradient(to right, #0b8793, #360033); background: linear-gradient(to right, #0b8793, #360033); position: relative; overflow: hidden;">
   <div class="container">
     <div class="row align-items-center">
       <div class="col-lg-6">
@@ -127,7 +128,8 @@
       <div class="col-lg-4 col-md-6 mb-4">
         <div class="process-card h-100 featured">
           <div class="card-icon">
-            <div class="icon-wrapper">
+            {{-- GOLD GRADIENT: Remove inline style to revert to original purple/blue --}}
+            <div class="icon-wrapper" style="background: linear-gradient(135deg, #FFD700 0%, #FFA500 50%, #FFD700 100%); box-shadow: 0 4px 15px rgba(255, 215, 0, 0.3);">
               <i class="fa fa-check-circle"></i>
             </div>
             <div class="step-number">02</div>
@@ -181,7 +183,8 @@
           <div class="row">
             <div class="col-md-6 mb-4">
               <div class="feature-item">
-                <div class="feature-icon">
+                {{-- GOLD GRADIENT: Remove inline style to revert to original purple/blue --}}
+                <div class="feature-icon" style="background: linear-gradient(135deg, #FFD700 0%, #FFA500 50%, #FFD700 100%); color: #fff; width: 60px; height: 60px; border-radius: 50%; display: flex; align-items: center; justify-content: center; margin: 0 auto 20px; box-shadow: 0 4px 15px rgba(255, 215, 0, 0.3); font-size: 24px;">
                   <i class="fa fa-shield"></i>
                 </div>
                 <h5 class="fw-bold">Safe & Secure</h5>
@@ -190,7 +193,8 @@
             </div>
             <div class="col-md-6 mb-4">
               <div class="feature-item">
-                <div class="feature-icon">
+                {{-- GOLD GRADIENT: Remove inline style to revert to original purple/blue --}}
+                <div class="feature-icon" style="background: linear-gradient(135deg, #FFD700 0%, #FFA500 50%, #FFD700 100%); color: #fff; width: 60px; height: 60px; border-radius: 50%; display: flex; align-items: center; justify-content: center; margin: 0 auto 20px; box-shadow: 0 4px 15px rgba(255, 215, 0, 0.3); font-size: 24px;">
                   <i class="fa fa-clock-o"></i>
                 </div>
                 <h5 class="fw-bold">Fast Processing</h5>
@@ -199,7 +203,8 @@
             </div>
             <div class="col-md-6 mb-4">
               <div class="feature-item">
-                <div class="feature-icon">
+                {{-- GOLD GRADIENT: Remove inline style to revert to original purple/blue --}}
+                <div class="feature-icon" style="background: linear-gradient(135deg, #FFD700 0%, #FFA500 50%, #FFD700 100%); color: #fff; width: 60px; height: 60px; border-radius: 50%; display: flex; align-items: center; justify-content: center; margin: 0 auto 20px; box-shadow: 0 4px 15px rgba(255, 215, 0, 0.3); font-size: 24px;">
                   <i class="fa fa-eye"></i>
                 </div>
                 <h5 class="fw-bold">Transparent</h5>
@@ -208,7 +213,8 @@
             </div>
             <div class="col-md-6 mb-4">
               <div class="feature-item">
-                <div class="feature-icon">
+                {{-- GOLD GRADIENT: Remove inline style to revert to original purple/blue --}}
+                <div class="feature-icon" style="background: linear-gradient(135deg, #FFD700 0%, #FFA500 50%, #FFD700 100%); color: #fff; width: 60px; height: 60px; border-radius: 50%; display: flex; align-items: center; justify-content: center; margin: 0 auto 20px; box-shadow: 0 4px 15px rgba(255, 215, 0, 0.3); font-size: 24px;">
                   <i class="fa fa-mobile"></i>
                 </div>
                 <h5 class="fw-bold">Mobile Friendly</h5>
