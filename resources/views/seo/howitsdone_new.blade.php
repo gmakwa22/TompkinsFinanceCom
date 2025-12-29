@@ -1,6 +1,6 @@
 <!-- Modern Hero Section with Animated Counters -->
-{{-- TEAL-PURPLE GRADIENT: Change background back to linear-gradient(135deg, #667eea 0%, #764ba2 100%) to revert to original purple/blue --}}
-<section class="page-section-ptb theme-bg pgs-background custom-bg-image" style="background: #360033; background: -webkit-linear-gradient(to right, #0b8793, #360033); background: linear-gradient(to right, #0b8793, #360033); position: relative; overflow: hidden;">
+{{-- BLUE-GRAY GRADIENT: Change background back to linear-gradient(135deg, #667eea 0%, #764ba2 100%) to revert to original purple/blue --}}
+<section class="page-section-ptb theme-bg pgs-background custom-bg-image" style="background: #373B44; background: -webkit-linear-gradient(to right, #4286f4, #373B44); background: linear-gradient(to right, #4286f4, #373B44); position: relative; overflow: hidden;">
   <div class="container">
     <div class="row align-items-center">
       <div class="col-lg-6">

@@ -199,7 +199,7 @@ SEOMeta::addKeyword('Houston payday loans', 'fast loans Houston TX', 'same day l
   public function Education()
   {
     $track = $this->tracker();
-    $data = ["bannerbg" => "land/sage-left3.jpg", "headtxtcolor" => "white", "licpr" => "on", "spprov" => "Be Informed", "headpg" => "BE INFORMED", "headsub" => "Make the best choice for your financial situation.", "headalign" => "text-center", "martop" => "40", "safe" => "on"];
+    $data = ["bannerbg" => "land/47.jpg", "headtxtcolor" => "white", "licpr" => "on", "spprov" => "Be Informed", "headpg" => "BE INFORMED", "headsub" => "Make the best choice for your financial situation.", "headalign" => "text-center", "martop" => "40", "safe" => "on"];
     SEOMeta::setTitle('Tompkins Finance Education | Understanding Your Options');
     SEOMeta::setDescription('Get informed about loan options, interest rates, and repayment terms in Texas. Learn more about how to apply for a personal loan and make an informed decision.');
     SEOMeta::addKeyword('Tompkins Finance education', 'Tompkins Finance information', 'personal loan options Texas', 'Tompkins Finance resources', 'learn about Tompkins Finance', 'understanding Tompkins Finance');
@@ -211,7 +211,7 @@ SEOMeta::addKeyword('Houston payday loans', 'fast loans Houston TX', 'same day l
   public function Faq()
   {
     $track = $this->tracker();
-    $data = ["bannerbg" => "land/sage-faq.jpg", "martop" => "20", "licpr" => "on", "spprov" => "Be Informed", "headpg" => "FREQUENTLY ASKED QUESTIONS", "headtxtcolor" => "white", "headsub" => "Here are answers to the questions you ask most often", "headphonehide" => "hide", "headalign" => "text-center", "safe" => "on"];
+    $data = ["bannerbg" => "land/15.jpg", "martop" => "20", "licpr" => "on", "spprov" => "Be Informed", "headpg" => "FREQUENTLY ASKED QUESTIONS", "headtxtcolor" => "white", "headsub" => "Here are answers to the questions you ask most often", "headphonehide" => "hide", "headalign" => "text-center", "safe" => "on"];
     SEOMeta::setTitle('Tompkins Finance FAQ | Houston Payday Loan Questions Answered');
     SEOMeta::setDescription('Get answers to your payday loan questions in Houston, TX. Our FAQ covers loan requirements, approval process, repayment terms, and everything you need to know about Tompkins Finance loans.');
     SEOMeta::addKeyword('Houston payday loan FAQ', 'Tompkins Finance questions', 'payday loan help Houston', 'Houston cash advance FAQ', 'Texas loan questions', 'Houston financial FAQ', 'payday loan information Houston');
@@ -317,7 +317,7 @@ SEOMeta::addKeyword('Houston payday loans', 'fast loans Houston TX', 'same day l
   {
     $track = $this->tracker();
     $this->safe = "on";
-    $data = ["bannerbg" => "land/sage-fam2.jpg",  "headtxtcolor" => "white", "headalign" => "text-center", "headphonehide" => "hide", "headpg" => "MONEY, WHEN YOU NEED IT MOST", "headsub" => "Put your mind at ease when unexpected expenses arise.", "martop" => "20", "safe" => "on"];
+    $data = ["bannerbg" => "land/how.jpg",  "headtxtcolor" => "white", "headalign" => "text-center", "headphonehide" => "hide", "headpg" => "MONEY, WHEN YOU NEED IT MOST", "headsub" => "Put your mind at ease when unexpected expenses arise.", "martop" => "20", "safe" => "on"];
     SEOMeta::setTitle("How It's Done in Texas | Simple and Easy Loan Process");
     SEOMeta::setDescription("Learn how our loan process works in Texas and get a clear understanding of what to expect. Simple and easy steps to get the funds you need in TX.");
     SEOMeta::addKeyword("Texas loan process", "how to get a loan in Texas", "Texas easy loans", "simple funding Texas", "Texas loan application process", "get a loan today in Texas");
@@ -326,7 +326,7 @@ SEOMeta::addKeyword('Houston payday loans', 'fast loans Houston TX', 'same day l
   public function why_choose_us()
   {
     $track = $this->tracker();
-    $data = ["bannerbg" => "/land/sage-left6.jpg",  "headtxtcolor" => "white", "martop" => "40", "headalign" => "text-center", "headpg" => "THE SHORT TERM HASSLE-FREE LOAN", "headsub" => "The funds you need when you need them.", "safe" => "on"];
+    $data = ["bannerbg" => "/land/sage-left1.jpg",  "headtxtcolor" => "white", "martop" => "30", "headalign" => "text-center", "headpg" => "THE SHORT TERM HASSLE-FREE LOAN", "headsub" => "The funds you need when you need them.", "safe" => "on"];
     SEOMeta::setTitle("Why Choose Us in Texas | Trusted Loan Solutions");
     SEOMeta::setDescription("Discover why thousands of Texans choose us for their loan needs. Competitive rates, fast funding, and exceptional customer service in Texas.");
     SEOMeta::addKeyword("why choose us in Texas", "Texas loan benefits", "competitive rates Texas", "fast funding Texas", "exceptional service Texas", "trusted Texas lender");
