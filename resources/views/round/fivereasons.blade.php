@@ -12,7 +12,8 @@
         <div class="modern-card p-4" style="background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%); border-radius: 15px; box-shadow: 0 10px 30px rgba(0,0,0,0.1); height: 100%;">
           <div class="d-flex align-items-start">
             <div class="me-3">
-              <div class="feature-icon" style="width: 50px; height: 50px; background: linear-gradient(135deg, #667eea, #764ba2); border-radius: 50%; display: flex; align-items: center; justify-content: center; color: white; font-size: 20px;">
+              {{-- GOLD GRADIENT: Remove inline style to revert to original purple/blue --}}
+              <div class="feature-icon" style="width: 50px; height: 50px; background: linear-gradient(135deg, #FFD700 0%, #FFA500 50%, #FFD700 100%); border-radius: 50%; display: flex; align-items: center; justify-content: center; color: white; font-size: 20px; box-shadow: 0 4px 15px rgba(255, 215, 0, 0.3);">
                 <i class="fa fa-credit-card"></i>
               </div>
             </div>
@@ -27,7 +28,8 @@
         <div class="modern-card p-4" style="background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%); border-radius: 15px; box-shadow: 0 10px 30px rgba(0,0,0,0.1); height: 100%;">
           <div class="d-flex align-items-start">
             <div class="me-3">
-              <div class="feature-icon" style="width: 50px; height: 50px; background: linear-gradient(135deg, #667eea, #764ba2); border-radius: 50%; display: flex; align-items: center; justify-content: center; color: white; font-size: 20px;">
+              {{-- GOLD GRADIENT: Remove inline style to revert to original purple/blue --}}
+              <div class="feature-icon" style="width: 50px; height: 50px; background: linear-gradient(135deg, #FFD700 0%, #FFA500 50%, #FFD700 100%); border-radius: 50%; display: flex; align-items: center; justify-content: center; color: white; font-size: 20px; box-shadow: 0 4px 15px rgba(255, 215, 0, 0.3);">
                 <i class="fa fa-clock-o"></i>
               </div>
             </div>
@@ -42,7 +44,8 @@
         <div class="modern-card p-4" style="background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%); border-radius: 15px; box-shadow: 0 10px 30px rgba(0,0,0,0.1); height: 100%;">
           <div class="d-flex align-items-start">
             <div class="me-3">
-              <div class="feature-icon" style="width: 50px; height: 50px; background: linear-gradient(135deg, #667eea, #764ba2); border-radius: 50%; display: flex; align-items: center; justify-content: center; color: white; font-size: 20px;">
+              {{-- GOLD GRADIENT: Remove inline style to revert to original purple/blue --}}
+              <div class="feature-icon" style="width: 50px; height: 50px; background: linear-gradient(135deg, #FFD700 0%, #FFA500 50%, #FFD700 100%); border-radius: 50%; display: flex; align-items: center; justify-content: center; color: white; font-size: 20px; box-shadow: 0 4px 15px rgba(255, 215, 0, 0.3);">
                 <i class="fa fa-file-text-o"></i>
               </div>
             </div>
@@ -57,7 +60,8 @@
         <div class="modern-card p-4" style="background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%); border-radius: 15px; box-shadow: 0 10px 30px rgba(0,0,0,0.1); height: 100%;">
           <div class="d-flex align-items-start">
             <div class="me-3">
-              <div class="feature-icon" style="width: 50px; height: 50px; background: linear-gradient(135deg, #667eea, #764ba2); border-radius: 50%; display: flex; align-items: center; justify-content: center; color: white; font-size: 20px;">
+              {{-- GOLD GRADIENT: Remove inline style to revert to original purple/blue --}}
+              <div class="feature-icon" style="width: 50px; height: 50px; background: linear-gradient(135deg, #FFD700 0%, #FFA500 50%, #FFD700 100%); border-radius: 50%; display: flex; align-items: center; justify-content: center; color: white; font-size: 20px; box-shadow: 0 4px 15px rgba(255, 215, 0, 0.3);">
                 <i class="fa fa-eye"></i>
               </div>
             </div>
@@ -72,7 +76,8 @@
         <div class="modern-card p-4" style="background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%); border-radius: 15px; box-shadow: 0 10px 30px rgba(0,0,0,0.1);">
           <div class="d-flex align-items-start">
             <div class="me-3">
-              <div class="feature-icon" style="width: 50px; height: 50px; background: linear-gradient(135deg, #667eea, #764ba2); border-radius: 50%; display: flex; align-items: center; justify-content: center; color: white; font-size: 20px;">
+              {{-- GOLD GRADIENT: Remove inline style to revert to original purple/blue --}}
+              <div class="feature-icon" style="width: 50px; height: 50px; background: linear-gradient(135deg, #FFD700 0%, #FFA500 50%, #FFD700 100%); border-radius: 50%; display: flex; align-items: center; justify-content: center; color: white; font-size: 20px; box-shadow: 0 4px 15px rgba(255, 215, 0, 0.3);">
                 <i class="fa fa-lock"></i>
               </div>
             </div>

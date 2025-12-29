@@ -125,43 +125,43 @@ SEOMeta::addKeyword('Boulder City loans', 'quick loans Boulder City', 'cash adva
 
   public function texas()
   {
-    $data = ["bannerbg" => "unitedstates/texas.jpg", "headpg" => "SAGE ENDEAVORS PAYDAY LOANS IN TEXAS", "headtxtcolor" => "white", "headalign" => "text-right", "martop" => "25", "safe" => "on"];
-SEOMeta::setTitle('Sage Endeavours Payday Loans Texas | Fast Cash Advance Across TX');
-SEOMeta::setDescription('Get fast payday loans across Texas with Sage Endeavours. Serving Houston, Dallas, San Antonio, Austin and all major Texas cities. Quick approval, competitive rates, same-day funding!');
-SEOMeta::addKeyword('Texas payday loans', 'Sage Endeavours Texas', 'Houston payday loans', 'Dallas payday loans', 'San Antonio payday loans', 'Austin payday loans', 'Texas cash advance', 'TX payday loans', 'Texas same day loans', 'Houston cash advance', 'Dallas cash advance', 'Texas loan approval');
+    $data = ["bannerbg" => "unitedstates/texas.jpg", "headpg" => "TOMPKINS FINANCE PAYDAY LOANS IN TEXAS", "headtxtcolor" => "white", "headalign" => "text-right", "martop" => "25", "safe" => "on"];
+SEOMeta::setTitle('Tompkins Finance Payday Loans Texas | Fast Cash Advance Across TX');
+SEOMeta::setDescription('Get fast payday loans across Texas with Tompkins Finance. Serving Houston, Dallas, San Antonio, Austin and all major Texas cities. Quick approval, competitive rates, same-day funding!');
+SEOMeta::addKeyword('Texas payday loans', 'Tompkins Finance Texas', 'Houston payday loans', 'Dallas payday loans', 'San Antonio payday loans', 'Austin payday loans', 'Texas cash advance', 'TX payday loans', 'Texas same day loans', 'Houston cash advance', 'Dallas cash advance', 'Texas loan approval');
 
     return view('states.texas.texas', $data);
   }
   public function houston()
   {
-    $data = ["bannerbg" => "land/sage-left4.jpg", "headpg" => "SAGE ENDEAVORS PAYDAY LOANS IN HOUSTON", "headtxtcolor" => "white", "headalign" => "text-right", "martop" => "25", "safe" => "on"];
-SEOMeta::setTitle('Sage Endeavours Payday Loans Houston | Fast Cash Advance in H-Town');
-SEOMeta::setDescription('Need quick cash in Houston? Sage Endeavours offers fast payday loans in H-Town with same-day approval. Serving Harris County, Montrose, Heights, and all Houston neighborhoods. Apply now!');
-SEOMeta::addKeyword('Houston payday loans', 'Sage Endeavours Houston', 'H-Town cash advance', 'Houston same day loans', 'Harris County payday loans', 'Montrose loans Houston', 'Heights payday loans', 'Houston quick cash', 'Texas Medical Center loans', 'Galleria area loans Houston', 'Houston emergency loans', 'Houston loan approval');
+    $data = ["bannerbg" => "land/sage-left4.jpg", "headpg" => "TOMPKINS FINANCE PAYDAY LOANS IN HOUSTON", "headtxtcolor" => "white", "headalign" => "text-right", "martop" => "25", "safe" => "on"];
+SEOMeta::setTitle('Tompkins Finance Payday Loans Houston | Fast Cash Advance in H-Town');
+SEOMeta::setDescription('Need quick cash in Houston? Tompkins Finance offers fast payday loans in H-Town with same-day approval. Serving Harris County, Montrose, Heights, and all Houston neighborhoods. Apply now!');
+SEOMeta::addKeyword('Houston payday loans', 'Tompkins Finance Houston', 'H-Town cash advance', 'Houston same day loans', 'Harris County payday loans', 'Montrose loans Houston', 'Heights payday loans', 'Houston quick cash', 'Texas Medical Center loans', 'Galleria area loans Houston', 'Houston emergency loans', 'Houston loan approval');
     return view('states.texas.houston', $data);
   }
   public function sanantonio()
   {
-    $data = ["bannerbg" => "unitedstates/sanantonio.jpg", "headpg" => "SAGE ENDEAVORS PAYDAY LOANS IN SAN ANTONIO", "headtxtcolor" => "white", "headalign" => "text-right", "martop" => "25", "safe" => "on"];
-SEOMeta::setTitle('Sage Endeavours Payday Loans San Antonio | Fast Cash Advance in the Alamo City');
-SEOMeta::setDescription('Need quick cash in San Antonio? Sage Endeavours offers fast payday loans in the Alamo City with same-day approval. Serving Bexar County, downtown SA, and all San Antonio neighborhoods. Apply now!');
-SEOMeta::addKeyword('San Antonio payday loans', 'Sage Endeavours San Antonio', 'Alamo City cash advance', 'San Antonio same day loans', 'Bexar County payday loans', 'downtown San Antonio loans', 'SA payday loans', 'San Antonio quick cash', 'River Walk area loans', 'San Antonio emergency loans', 'San Antonio loan approval', 'Texas payday loans');
+    $data = ["bannerbg" => "unitedstates/sanantonio.jpg", "headpg" => "TOMPKINS FINANCE PAYDAY LOANS IN SAN ANTONIO", "headtxtcolor" => "white", "headalign" => "text-right", "martop" => "25", "safe" => "on"];
+SEOMeta::setTitle('Tompkins Finance Payday Loans San Antonio | Fast Cash Advance in the Alamo City');
+SEOMeta::setDescription('Need quick cash in San Antonio? Tompkins Finance offers fast payday loans in the Alamo City with same-day approval. Serving Bexar County, downtown SA, and all San Antonio neighborhoods. Apply now!');
+SEOMeta::addKeyword('San Antonio payday loans', 'Tompkins Finance San Antonio', 'Alamo City cash advance', 'San Antonio same day loans', 'Bexar County payday loans', 'downtown San Antonio loans', 'SA payday loans', 'San Antonio quick cash', 'River Walk area loans', 'San Antonio emergency loans', 'San Antonio loan approval', 'Texas payday loans');
     return view('states.texas.sanantonio', $data);
   }
   public function dallas()
   {
-    $data = ["bannerbg" => "land/sage-left5.jpg", "headpg" => "SAGE ENDEAVORS PAYDAY LOANS IN DALLAS", "headtxtcolor" => "white", "headalign" => "text-right", "martop" => "35", "safe" => "on"];
-SEOMeta::setTitle('Sage Endeavours Payday Loans Dallas | Fast Cash Advance in Big D');
-SEOMeta::setDescription('Need quick cash in Dallas? Sage Endeavours offers fast payday loans in Big D with same-day approval. Serving Dallas County, Uptown, Deep Ellum, and all Dallas neighborhoods. Apply now!');
-SEOMeta::addKeyword('Dallas payday loans', 'Sage Endeavours Dallas', 'Big D cash advance', 'Dallas same day loans', 'Dallas County payday loans', 'Uptown Dallas loans', 'Deep Ellum payday loans', 'Dallas quick cash', 'Downtown Dallas loans', 'Dallas emergency loans', 'Dallas loan approval', 'Texas payday loans');
+    $data = ["bannerbg" => "land/sage-left5.jpg", "headpg" => "TOMPKINS FINANCE PAYDAY LOANS IN DALLAS", "headtxtcolor" => "white", "headalign" => "text-right", "martop" => "35", "safe" => "on"];
+SEOMeta::setTitle('Tompkins Finance Payday Loans Dallas | Fast Cash Advance in Big D');
+SEOMeta::setDescription('Need quick cash in Dallas? Tompkins Finance offers fast payday loans in Big D with same-day approval. Serving Dallas County, Uptown, Deep Ellum, and all Dallas neighborhoods. Apply now!');
+SEOMeta::addKeyword('Dallas payday loans', 'Tompkins Finance Dallas', 'Big D cash advance', 'Dallas same day loans', 'Dallas County payday loans', 'Uptown Dallas loans', 'Deep Ellum payday loans', 'Dallas quick cash', 'Downtown Dallas loans', 'Dallas emergency loans', 'Dallas loan approval', 'Texas payday loans');
     return view('states.texas.dallas', $data);
   }
   public function austin()
   {
-    $data = ["bannerbg" => "unitedstates/austin.jpg", "headpg" => "SAGE ENDEAVORS PAYDAY LOANS IN AUSTIN", "headtxtcolor" => "white", "headalign" => "text-right", "martop" => "25", "safe" => "on"];
-SEOMeta::setTitle('Sage Endeavours Payday Loans Austin | Fast Cash Advance in the Live Music Capital');
-SEOMeta::setDescription('Need quick cash in Austin? Sage Endeavours offers fast payday loans in the Live Music Capital with same-day approval. Serving Travis County, South Austin, East Side, and all ATX neighborhoods. Apply now!');
-SEOMeta::addKeyword('Austin payday loans', 'Sage Endeavours Austin', 'Live Music Capital cash advance', 'Austin same day loans', 'Travis County payday loans', 'South Austin loans', 'East Side Austin loans', 'ATX payday loans', 'Austin quick cash', 'Downtown Austin loans', 'Austin emergency loans', 'Austin loan approval');
+    $data = ["bannerbg" => "unitedstates/austin.jpg", "headpg" => "TOMPKINS FINANCE PAYDAY LOANS IN AUSTIN", "headtxtcolor" => "white", "headalign" => "text-right", "martop" => "25", "safe" => "on"];
+SEOMeta::setTitle('Tompkins Finance Payday Loans Austin | Fast Cash Advance in the Live Music Capital');
+SEOMeta::setDescription('Need quick cash in Austin? Tompkins Finance offers fast payday loans in the Live Music Capital with same-day approval. Serving Travis County, South Austin, East Side, and all ATX neighborhoods. Apply now!');
+SEOMeta::addKeyword('Austin payday loans', 'Tompkins Finance Austin', 'Live Music Capital cash advance', 'Austin same day loans', 'Travis County payday loans', 'South Austin loans', 'East Side Austin loans', 'ATX payday loans', 'Austin quick cash', 'Downtown Austin loans', 'Austin emergency loans', 'Austin loan approval');
     return view('states.texas.austin', $data);
   }
   public function fortworth()
@@ -527,10 +527,10 @@ SEOMeta::addKeyword('Missouri loans', 'quick loans Missouri', 'cash advance Miss
 
  public function kansas()
   {
-    $data = ["bannerbg" => "unitedstates/kansas.jpg", "headpg" => "SAGE ENDEAVOURS PAYDAY LOANS IN KANSAS CITY", "headtxtcolor" => "white", "headalign" => "text-right", "martop" => "25", "safe" => "on"];
-SEOMeta::setTitle('Sage Endeavours Payday Loans Kansas City | Fast Cash Advance in the City of Fountains');
-SEOMeta::setDescription('Need quick cash in Kansas City, MO? Sage Endeavours offers fast payday loans in KC with same-day approval. Serving Jackson County, Clay County, Platte County, and all Kansas City neighborhoods. Apply now!');
-SEOMeta::addKeyword('Kansas City payday loans', 'Sage Endeavours Kansas City', 'KC cash advance', 'Kansas City same day loans', 'Jackson County payday loans', 'Clay County loans', 'Platte County loans', 'Kansas City quick cash', 'KC emergency loans', 'Kansas City loan approval', 'Missouri payday loans', 'Kansas City MO loans', 'City of Fountains loans');
+    $data = ["bannerbg" => "unitedstates/kansas.jpg", "headpg" => "TOMPKINS FINANCE PAYDAY LOANS IN KANSAS CITY", "headtxtcolor" => "white", "headalign" => "text-right", "martop" => "25", "safe" => "on"];
+SEOMeta::setTitle('Tompkins Finance Payday Loans Kansas City | Fast Cash Advance in the City of Fountains');
+SEOMeta::setDescription('Need quick cash in Kansas City, MO? Tompkins Finance offers fast payday loans in KC with same-day approval. Serving Jackson County, Clay County, Platte County, and all Kansas City neighborhoods. Apply now!');
+SEOMeta::addKeyword('Kansas City payday loans', 'Tompkins Finance Kansas City', 'KC cash advance', 'Kansas City same day loans', 'Jackson County payday loans', 'Clay County loans', 'Platte County loans', 'Kansas City quick cash', 'KC emergency loans', 'Kansas City loan approval', 'Missouri payday loans', 'Kansas City MO loans', 'City of Fountains loans');
     return view('states.missouri.kansascity', $data);
   }
  public function stlouis()
@@ -600,10 +600,10 @@ SEOMeta::addKeyword('St. Charles loans', 'quick loans St. Charles', 'cash advanc
 
   public function stpeters()
   {
-    $data = ["bannerbg" => "unitedstates/stpeters.jpg", "headpg" => "SAGE ENDEAVOURS PAYDAY LOANS IN ST. PETERS", "headtxtcolor" => "white", "headalign" => "text-right", "martop" => "25", "safe" => "on"];
-SEOMeta::setTitle('Sage Endeavours Payday Loans St. Peters | Fast Cash Advance in the Gateway City');
-SEOMeta::setDescription('Need quick cash in St. Peters, MO? Sage Endeavours offers fast payday loans in St. Peters with same-day approval. Serving St. Charles County, St. Louis County, and all St. Peters neighborhoods. Apply now!');
-SEOMeta::addKeyword('St. Peters payday loans', 'Sage Endeavours St. Peters', 'St. Peters cash advance', 'St. Peters same day loans', 'St. Charles County payday loans', 'St. Louis County loans', 'St. Peters quick cash', 'St. Peters emergency loans', 'St. Peters loan approval', 'Missouri payday loans', 'St. Peters MO loans', 'Gateway City loans');
+    $data = ["bannerbg" => "unitedstates/stpeters.jpg", "headpg" => "TOMPKINS FINANCE PAYDAY LOANS IN ST. PETERS", "headtxtcolor" => "white", "headalign" => "text-right", "martop" => "25", "safe" => "on"];
+SEOMeta::setTitle('Tompkins Finance Payday Loans St. Peters | Fast Cash Advance in the Gateway City');
+SEOMeta::setDescription('Need quick cash in St. Peters, MO? Tompkins Finance offers fast payday loans in St. Peters with same-day approval. Serving St. Charles County, St. Louis County, and all St. Peters neighborhoods. Apply now!');
+SEOMeta::addKeyword('St. Peters payday loans', 'Tompkins Finance St. Peters', 'St. Peters cash advance', 'St. Peters same day loans', 'St. Charles County payday loans', 'St. Louis County loans', 'St. Peters quick cash', 'St. Peters emergency loans', 'St. Peters loan approval', 'Missouri payday loans', 'St. Peters MO loans', 'Gateway City loans');
     return view('states.missouri.stpeters', $data);
   }
 

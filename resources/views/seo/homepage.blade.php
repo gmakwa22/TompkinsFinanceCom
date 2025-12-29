@@ -5,10 +5,12 @@
     <div class="row align-items-center">
       <div class="col-lg-8 mx-auto text-center">
         <div class="hero-content text-white">
-          <h1 class="display-4 fw-bold mb-4 hero-title">
+          {{-- GOLD DESIGN: Change 'gold' to 'white' in class below to revert to original white text --}}
+          <h1 class="display-4 fw-bold mb-4 hero-title" style="color: #FFD700; text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5), 0 0 20px rgba(255, 215, 0, 0.3);">
             {{ $headpg ?? "INSTANT CASH WHEN YOU NEED IT MOST" }}
           </h1>
-          <h2 class="h3 mb-4 hero-subtitle" style="padding: .5em 1em; background-color: rgba(255, 255, 255, 0.2); color: #ffffff; border-radius: 8px; display: inline-block; backdrop-filter: blur(10px);">
+          {{-- GOLD DESIGN: Remove inline style below to revert to original white background --}}
+          <h2 class="h3 mb-4 hero-subtitle" style="padding: .5em 1em; background: linear-gradient(135deg, rgba(255, 215, 0, 0.3) 0%, rgba(255, 184, 28, 0.4) 100%); color: #FFD700; border: 2px solid rgba(255, 215, 0, 0.5); border-radius: 8px; display: inline-block; backdrop-filter: blur(10px); text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3); box-shadow: 0 4px 15px rgba(255, 215, 0, 0.2);">
             {{ $headsub ?? "Fast, secure, and reliable financial solutions" }}
           </h2>
           <p class="lead mb-4 hero-description">
@@ -71,7 +73,8 @@
     <div class="row">
       <div class="col-lg-4 col-md-6 mb-4">
         <div class="feature-item">
-          <div class="feature-icon">
+          {{-- GOLD GRADIENT: Remove inline style to revert to original purple/blue --}}
+          <div class="feature-icon" style="background: linear-gradient(135deg, #FFD700 0%, #FFA500 50%, #FFD700 100%); color: #fff; width: 70px; height: 70px; line-height: 70px; border-radius: 50%; display: inline-block; font-size: 26px; text-align: center; box-shadow: 0 4px 15px rgba(255, 215, 0, 0.3);">
             <i class="fa fa-shield"></i>
           </div>
           <h5 class="fw-bold">Safe & Secure</h5>
@@ -80,7 +83,8 @@
       </div>
       <div class="col-lg-4 col-md-6 mb-4">
         <div class="feature-item">
-          <div class="feature-icon">
+          {{-- GOLD GRADIENT: Remove inline style to revert to original purple/blue --}}
+          <div class="feature-icon" style="background: linear-gradient(135deg, #FFD700 0%, #FFA500 50%, #FFD700 100%); color: #fff; width: 70px; height: 70px; line-height: 70px; border-radius: 50%; display: inline-block; font-size: 26px; text-align: center; box-shadow: 0 4px 15px rgba(255, 215, 0, 0.3);">
             <i class="fa fa-comments"></i>
           </div>
           <h5 class="fw-bold">Expert Support</h5>
@@ -89,7 +93,8 @@
       </div>
       <div class="col-lg-4 col-md-6 mb-4">
         <div class="feature-item">
-          <div class="feature-icon">
+          {{-- GOLD GRADIENT: Remove inline style to revert to original purple/blue --}}
+          <div class="feature-icon" style="background: linear-gradient(135deg, #FFD700 0%, #FFA500 50%, #FFD700 100%); color: #fff; width: 70px; height: 70px; line-height: 70px; border-radius: 50%; display: inline-block; font-size: 26px; text-align: center; box-shadow: 0 4px 15px rgba(255, 215, 0, 0.3);">
             <i class="fa fa-check-circle"></i>
           </div>
           <h5 class="fw-bold">No Hidden Fees</h5>
@@ -98,7 +103,8 @@
       </div>
       <div class="col-lg-4 col-md-6 mb-4">
         <div class="feature-item">
-          <div class="feature-icon">
+          {{-- GOLD GRADIENT: Remove inline style to revert to original purple/blue --}}
+          <div class="feature-icon" style="background: linear-gradient(135deg, #FFD700 0%, #FFA500 50%, #FFD700 100%); color: #fff; width: 70px; height: 70px; line-height: 70px; border-radius: 50%; display: inline-block; font-size: 26px; text-align: center; box-shadow: 0 4px 15px rgba(255, 215, 0, 0.3);">
             <i class="fa fa-refresh"></i>
           </div>
           <h5 class="fw-bold">Flexibility</h5>
@@ -107,7 +113,8 @@
       </div>
       <div class="col-lg-4 col-md-6 mb-4">
         <div class="feature-item">
-          <div class="feature-icon">
+          {{-- GOLD GRADIENT: Remove inline style to revert to original purple/blue --}}
+          <div class="feature-icon" style="background: linear-gradient(135deg, #FFD700 0%, #FFA500 50%, #FFD700 100%); color: #fff; width: 70px; height: 70px; line-height: 70px; border-radius: 50%; display: inline-block; font-size: 26px; text-align: center; box-shadow: 0 4px 15px rgba(255, 215, 0, 0.3);">
             <i class="fa fa-eye"></i>
           </div>
           <h5 class="fw-bold">Transparent</h5>
@@ -116,7 +123,8 @@
       </div>
       <div class="col-lg-4 col-md-6 mb-4">
         <div class="feature-item">
-          <div class="feature-icon">
+          {{-- GOLD GRADIENT: Remove inline style to revert to original purple/blue --}}
+          <div class="feature-icon" style="background: linear-gradient(135deg, #FFD700 0%, #FFA500 50%, #FFD700 100%); color: #fff; width: 70px; height: 70px; line-height: 70px; border-radius: 50%; display: inline-block; font-size: 26px; text-align: center; box-shadow: 0 4px 15px rgba(255, 215, 0, 0.3);">
             <i class="fa fa-bolt"></i>
           </div>
           <h5 class="fw-bold">Fast</h5>
@@ -141,7 +149,8 @@
         <div class="modern-card p-4" style="background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%); border-radius: 15px; box-shadow: 0 10px 30px rgba(0,0,0,0.1); height: 100%;">
           <div class="d-flex align-items-start">
             <div class="me-3">
-              <div class="feature-icon" style="width: 50px; height: 50px; background: linear-gradient(135deg, #667eea, #764ba2); border-radius: 50%; display: flex; align-items: center; justify-content: center; color: white; font-size: 20px;">
+              {{-- GOLD GRADIENT: Remove inline style to revert to original purple/blue --}}
+              <div class="feature-icon" style="width: 50px; height: 50px; background: linear-gradient(135deg, #FFD700 0%, #FFA500 50%, #FFD700 100%); border-radius: 50%; display: flex; align-items: center; justify-content: center; color: white; font-size: 20px; box-shadow: 0 4px 15px rgba(255, 215, 0, 0.3);">
                 <i class="fa fa-credit-card"></i>
               </div>
             </div>
@@ -156,7 +165,8 @@
         <div class="modern-card p-4" style="background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%); border-radius: 15px; box-shadow: 0 10px 30px rgba(0,0,0,0.1); height: 100%;">
           <div class="d-flex align-items-start">
             <div class="me-3">
-              <div class="feature-icon" style="width: 50px; height: 50px; background: linear-gradient(135deg, #667eea, #764ba2); border-radius: 50%; display: flex; align-items: center; justify-content: center; color: white; font-size: 20px;">
+              {{-- GOLD GRADIENT: Remove inline style to revert to original purple/blue --}}
+              <div class="feature-icon" style="width: 50px; height: 50px; background: linear-gradient(135deg, #FFD700 0%, #FFA500 50%, #FFD700 100%); border-radius: 50%; display: flex; align-items: center; justify-content: center; color: white; font-size: 20px; box-shadow: 0 4px 15px rgba(255, 215, 0, 0.3);">
                 <i class="fa fa-clock-o"></i>
               </div>
             </div>

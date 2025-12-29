@@ -81,19 +81,19 @@ class HomeController extends Controller
   {
     $track = $this->tracker();
     $data = ["bannerbg" => "land/51.jpg", "licpr" => "on", "headpg" => "CONTACT US TODAY!", "headtxtcolor" => "white", "headphonehide" => "hide", "headsub" => "We're always happy to hear from you.", "phonesmall" => "Phone: +0 (000) 000-0000", "safe" => "on"];
-    SEOMeta::setTitle('Contact Sage Endeavours | Houston Payday Loan Experts | Get Help Now');
-    SEOMeta::setDescription('Need help with your payday loan application? Contact Sage Endeavours in Houston, TX. Our friendly team is here to assist with quick cash advances and answer all your loan questions.');
-    SEOMeta::addKeyword('Houston payday loan contact', 'Sage Endeavours contact', 'Houston loan help', 'payday loan customer service Houston', 'Houston cash advance support', 'Texas loan assistance', 'Houston financial help');
+    SEOMeta::setTitle('Contact Tompkins Finance | Houston Payday Loan Experts | Get Help Now');
+    SEOMeta::setDescription('Need help with your payday loan application? Contact Tompkins Finance in Houston, TX. Our friendly team is here to assist with quick cash advances and answer all your loan questions.');
+    SEOMeta::addKeyword('Houston payday loan contact', 'Tompkins Finance contact', 'Houston loan help', 'payday loan customer service Houston', 'Houston cash advance support', 'Texas loan assistance', 'Houston financial help');
     return view('contact', $data);
   }
 
   public function Privacy()
   {
     $track = $this->tracker();
-    $data = ["bannerbg" => "land/sage-male7.jpg", "licpr" => "on", "headpg" => "PRIVACY POLICY", "headtxtcolor" => "white", "headphonehide" => "hide", "headalt" => "Sage Endeavours Privacy Policy - Your Privacy is our Priority", "safe" => "on"];
-    SEOMeta::setTitle('Sage Endeavours Privacy Policy | Protecting Your Information');
-    SEOMeta::setDescription('Learn how Sage Endeavours protects your personal information and maintains your privacy. Read our privacy policy to understand our commitment to your security in Houston, Texas.');
-    SEOMeta::addKeyword('Sage Endeavours privacy policy', 'Texas data protection', 'personal information security Houston', 'online loan company privacy policy Texas', 'Houston privacy policy');
+    $data = ["bannerbg" => "land/sage-male7.jpg", "licpr" => "on", "headpg" => "PRIVACY POLICY", "headtxtcolor" => "white", "headphonehide" => "hide", "headalt" => "Tompkins Finance Privacy Policy - Your Privacy is our Priority", "safe" => "on"];
+    SEOMeta::setTitle('Tompkins Finance Privacy Policy | Protecting Your Information');
+    SEOMeta::setDescription('Learn how Tompkins Finance protects your personal information and maintains your privacy. Read our privacy policy to understand our commitment to your security in Houston, Texas.');
+    SEOMeta::addKeyword('Tompkins Finance privacy policy', 'Texas data protection', 'personal information security Houston', 'online loan company privacy policy Texas', 'Houston privacy policy');
     return view('privacy-policy', $data);
   }
 
@@ -154,16 +154,16 @@ class HomeController extends Controller
  if ($this->safe =='basic') {
 
  $data = ["bannerbg" => "land/farm1.jpg", "headalign" => "text-center", "licpopwarning" => "kwartaloans", "martop" => "15",  "headtxtcolor" => "white", "headpg" => "Where Real Estate & AI Meet Opportunity", "headsub" => "Expertise in Real Estate & AI-Driven Business Solutions", "safe" => "on"];
-SEOMeta::setTitle('Sage Endeavours - Empowering Your Investments');
-SEOMeta::setDescription('Sage Endeavours offers expert real estate investments, AI-driven business opportunities, strategic acquisitions and divestments, and portfolio management. Contact us to learn more.');
+SEOMeta::setTitle('Tompkins Finance - Empowering Your Investments');
+SEOMeta::setDescription('Tompkins Finance offers expert real estate investments, AI-driven business opportunities, strategic acquisitions and divestments, and portfolio management. Contact us to learn more.');
 SEOMeta::addKeyword('Real Estate Investments, AI-Driven Business Opportunities, Strategic Acquisitions and Divestments, Portfolio Management, Investment Services, Financial Services, Business Growth, Investment Opportunities');
 
     } else {
 
 
 $data = ["bannerbg" => "land/$monthday.jpg", "headalign" => "text-center", "licpopwarning" => "kwartaloans", "martop" => "20",  "headtxtcolor" => "white", "safe" => "on"];
-SEOMeta::setTitle('Sage Endeavours | Fast Payday Loans in Houston, Texas | Same Day Approval');
-SEOMeta::setDescription('Get fast payday loans in Houston, TX with Sage Endeavours. Quick approval, competitive rates, and same-day funding for Harris County residents. Apply online now for instant cash advances!');
+SEOMeta::setTitle('Tompkins Finance | Fast Payday Loans in Houston, Texas | Same Day Approval');
+SEOMeta::setDescription('Get fast payday loans in Houston, TX with Tompkins Finance. Quick approval, competitive rates, and same-day funding for Harris County residents. Apply online now for instant cash advances!');
 SEOMeta::addKeyword('Houston payday loans', 'fast loans Houston TX', 'same day loans Houston', 'quick cash Houston Texas', 'Houston cash advance', 'payday loans Harris County', 'emergency loans Houston', 'Houston loan approval');
 
     }
@@ -189,9 +189,9 @@ SEOMeta::addKeyword('Houston payday loans', 'fast loans Houston TX', 'same day l
   {
     $track = $this->tracker();
     $data = ["bannerbg" => "land/sage-fam-6.jpg", "headpg" => "SITEMAP", "headtxtcolor" => "white", "headalign" => "text-right", "headphonehide" => "hide", "safe" => "on"];
-    SEOMeta::setTitle('Sage Endeavours Sitemap | Find Your Path to Financial Freedom');
+    SEOMeta::setTitle('Tompkins Finance Sitemap | Find Your Path to Financial Freedom');
     SEOMeta::setDescription('Navigate our sitemap to find the perfect loan solution for your financial needs. Apply for a personal loan in Texas with our simple online application.');
-    SEOMeta::addKeyword('Sage Endeavours sitemap', 'personal loan Texas', 'loan options Texas', 'financial freedom loans Texas', 'online loan applications Texas', 'Sage Endeavours solutions');
+    SEOMeta::addKeyword('Tompkins Finance sitemap', 'personal loan Texas', 'loan options Texas', 'financial freedom loans Texas', 'online loan applications Texas', 'Tompkins Finance solutions');
     return view('sitemap2', $data);
   }
 
@@ -200,9 +200,9 @@ SEOMeta::addKeyword('Houston payday loans', 'fast loans Houston TX', 'same day l
   {
     $track = $this->tracker();
     $data = ["bannerbg" => "land/sage-left3.jpg", "headtxtcolor" => "white", "licpr" => "on", "spprov" => "Be Informed", "headpg" => "BE INFORMED", "headsub" => "Make the best choice for your financial situation.", "headalign" => "text-center", "martop" => "40", "safe" => "on"];
-    SEOMeta::setTitle('Sage Endeavours Education | Understanding Your Options');
+    SEOMeta::setTitle('Tompkins Finance Education | Understanding Your Options');
     SEOMeta::setDescription('Get informed about loan options, interest rates, and repayment terms in Texas. Learn more about how to apply for a personal loan and make an informed decision.');
-    SEOMeta::addKeyword('Sage Endeavours education', 'Sage Endeavours information', 'personal loan options Texas', 'Sage Endeavours resources', 'learn about Sage Endeavours', 'understanding Sage Endeavours');
+    SEOMeta::addKeyword('Tompkins Finance education', 'Tompkins Finance information', 'personal loan options Texas', 'Tompkins Finance resources', 'learn about Tompkins Finance', 'understanding Tompkins Finance');
     return view('education-center', $data);
   }
 
@@ -212,27 +212,27 @@ SEOMeta::addKeyword('Houston payday loans', 'fast loans Houston TX', 'same day l
   {
     $track = $this->tracker();
     $data = ["bannerbg" => "land/sage-faq.jpg", "martop" => "20", "licpr" => "on", "spprov" => "Be Informed", "headpg" => "FREQUENTLY ASKED QUESTIONS", "headtxtcolor" => "white", "headsub" => "Here are answers to the questions you ask most often", "headphonehide" => "hide", "headalign" => "text-center", "safe" => "on"];
-    SEOMeta::setTitle('Sage Endeavours FAQ | Houston Payday Loan Questions Answered');
-    SEOMeta::setDescription('Get answers to your payday loan questions in Houston, TX. Our FAQ covers loan requirements, approval process, repayment terms, and everything you need to know about Sage Endeavours loans.');
-    SEOMeta::addKeyword('Houston payday loan FAQ', 'Sage Endeavours questions', 'payday loan help Houston', 'Houston cash advance FAQ', 'Texas loan questions', 'Houston financial FAQ', 'payday loan information Houston');
+    SEOMeta::setTitle('Tompkins Finance FAQ | Houston Payday Loan Questions Answered');
+    SEOMeta::setDescription('Get answers to your payday loan questions in Houston, TX. Our FAQ covers loan requirements, approval process, repayment terms, and everything you need to know about Tompkins Finance loans.');
+    SEOMeta::addKeyword('Houston payday loan FAQ', 'Tompkins Finance questions', 'payday loan help Houston', 'Houston cash advance FAQ', 'Texas loan questions', 'Houston financial FAQ', 'payday loan information Houston');
     return view('faq', $data);
   }
 
   public function Responsible_lending()
   {
     $data = ["bannerbg" => "land/sage-male3.jpg", "licpr" => "on", "headpg" => "WE LEND RESPONSIBLY", "headtxtcolor" => "white", "headphonehide" => "hide", "safe" => "on"];
-    SEOMeta::setTitle('Sage Endeavours Responsible Lending | Ethical Payday Loans in Houston, TX');
-    SEOMeta::setDescription("Learn about Sage Endeavours' responsible lending practices in Houston, Texas. We're committed to ethical payday loans with transparent terms, fair rates, and borrower protection.");
-    SEOMeta::addKeyword('Houston responsible payday loans', 'Sage Endeavours ethical lending', 'Texas responsible cash advances', 'Houston fair loan practices', 'transparent payday loans Texas', 'responsible lending Houston TX');
+    SEOMeta::setTitle('Tompkins Finance Responsible Lending | Ethical Payday Loans in Houston, TX');
+    SEOMeta::setDescription("Learn about Tompkins Finance' responsible lending practices in Houston, Texas. We're committed to ethical payday loans with transparent terms, fair rates, and borrower protection.");
+    SEOMeta::addKeyword('Houston responsible payday loans', 'Tompkins Finance ethical lending', 'Texas responsible cash advances', 'Houston fair loan practices', 'transparent payday loans Texas', 'responsible lending Houston TX');
     return view('responsible_lending', $data);
   }
   public function Terms()
   {
     $track = $this->tracker();
     $data = ["bannerbg" => "land/sage-girl4.jpg", "licpr" => "on", "headpg" => "TERMS AND CONDITIONS", "headtxtcolor" => "white", "headphonehide" => "hide", "safe" => "on"];
-    SEOMeta::setTitle('Sage Endeavours Terms and Conditions | Houston Payday Loan Agreement');
-    SEOMeta::setDescription('Read our terms and conditions for Sage Endeavours payday loans in Houston, TX. Understand your loan agreement, repayment terms, and borrower rights.');
-    SEOMeta::addKeyword('Houston payday loan terms', 'Sage Endeavours loan agreement', 'Texas payday loan conditions', 'Houston cash advance terms', 'payday loan contract Houston', 'Houston loan terms and conditions');
+    SEOMeta::setTitle('Tompkins Finance Terms and Conditions | Houston Payday Loan Agreement');
+    SEOMeta::setDescription('Read our terms and conditions for Tompkins Finance payday loans in Houston, TX. Understand your loan agreement, repayment terms, and borrower rights.');
+    SEOMeta::addKeyword('Houston payday loan terms', 'Tompkins Finance loan agreement', 'Texas payday loan conditions', 'Houston cash advance terms', 'payday loan contract Houston', 'Houston loan terms and conditions');
     return view('terms-conditions', $data);
   }
   public function borrow_money()

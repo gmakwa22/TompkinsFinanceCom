@@ -7,7 +7,8 @@
           <h1 class="display-4 fw-bold mb-4 hero-title">
             Education Center
           </h1>
-          <h2 class="h3 mb-4 hero-subtitle" style="padding: .5em 1em; background-color: rgba(255, 255, 255, 0.2); color: #ffffff; border-radius: 8px; display: inline-block; backdrop-filter: blur(10px);">
+          {{-- GOLD DESIGN: Remove inline style below to revert to original white background --}}
+          <h2 class="h3 mb-4 hero-subtitle" style="padding: .5em 1em; background: linear-gradient(135deg, rgba(255, 215, 0, 0.3) 0%, rgba(255, 184, 28, 0.4) 100%); color: #FFD700; border: 2px solid rgba(255, 215, 0, 0.5); border-radius: 8px; display: inline-block; backdrop-filter: blur(10px); text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3); box-shadow: 0 4px 15px rgba(255, 215, 0, 0.2);">
             Be Informed - Make the best choice for your financial situation
           </h2>
           <p class="lead mb-4 hero-description">

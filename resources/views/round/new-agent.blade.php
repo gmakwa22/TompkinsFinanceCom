@@ -60,16 +60,17 @@
     box-shadow: 0 10px 30px rgba(0,0,0,0.2);
 }
 
+{{-- GOLD GRADIENT: Change background back to linear-gradient(135deg, #3498db, #2980b9) and box-shadow to rgba(52, 152, 219, 0.3) to revert to original blue --}}
 .feature-icon {
     width: 60px;
     height: 60px;
-    background: linear-gradient(135deg, #3498db, #2980b9);
+    background: linear-gradient(135deg, #FFD700 0%, #FFA500 50%, #FFD700 100%);
     border-radius: 50%;
     display: flex;
     align-items: center;
     justify-content: center;
     margin-bottom: 20px;
-    box-shadow: 0 4px 15px rgba(52, 152, 219, 0.3);
+    box-shadow: 0 4px 15px rgba(255, 215, 0, 0.3);
 }
 
 .feature-icon i {

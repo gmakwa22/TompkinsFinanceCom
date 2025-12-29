@@ -7,7 +7,8 @@
           <h1 class="display-4 fw-bold mb-4 hero-title">
             Why Choose {{$privname}}
           </h1>
-          <h2 class="h3 mb-4 hero-subtitle" style="padding: .5em 1em; background-color: rgba(255, 255, 255, 0.2); color: #ffffff; border-radius: 8px; display: inline-block; backdrop-filter: blur(10px);">
+          {{-- GOLD DESIGN: Remove inline style below to revert to original white background --}}
+          <h2 class="h3 mb-4 hero-subtitle" style="padding: .5em 1em; background: linear-gradient(135deg, rgba(255, 215, 0, 0.3) 0%, rgba(255, 184, 28, 0.4) 100%); color: #FFD700; border: 2px solid rgba(255, 215, 0, 0.5); border-radius: 8px; display: inline-block; backdrop-filter: blur(10px); text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3); box-shadow: 0 4px 15px rgba(255, 215, 0, 0.2);">
             That alternative to the old payday loan that you've been waiting for
           </h2>
           <p class="lead mb-4 hero-description">
@@ -74,7 +75,8 @@
             </p>
             <div class="d-flex align-items-center">
               <div class="me-3">
-                <div class="feature-icon" style="width: 50px; height: 50px; background: linear-gradient(135deg, #667eea, #764ba2); border-radius: 50%; display: flex; align-items: center; justify-content: center; color: white; font-size: 20px;">
+                {{-- GOLD GRADIENT: Remove inline style to revert to original purple/blue --}}
+                <div class="feature-icon" style="width: 50px; height: 50px; background: linear-gradient(135deg, #FFD700 0%, #FFA500 50%, #FFD700 100%); border-radius: 50%; display: flex; align-items: center; justify-content: center; color: white; font-size: 20px; box-shadow: 0 4px 15px rgba(255, 215, 0, 0.3);">
                   <i class="fa fa-check"></i>
                 </div>
               </div>
@@ -91,13 +93,15 @@
               <div class="row text-center">
                 <div class="col-6">
                   <div class="p-3" style="background: white; border-radius: 10px; margin-bottom: 10px;">
-                    <h5 class="fw-bold mb-1" style="color: #667eea;">Low</h5>
+                    {{-- GOLD GRADIENT: Remove inline style to revert to original purple/blue --}}
+                    <h5 class="fw-bold mb-1" style="color: #FFD700;">Low</h5>
                     <p class="mb-0 text-muted small">Rates</p>
                   </div>
                 </div>
                 <div class="col-6">
                   <div class="p-3" style="background: white; border-radius: 10px; margin-bottom: 10px;">
-                    <h5 class="fw-bold mb-1" style="color: #667eea;">No</h5>
+                    {{-- GOLD GRADIENT: Remove inline style to revert to original purple/blue --}}
+                    <h5 class="fw-bold mb-1" style="color: #FFD700;">No</h5>
                     <p class="mb-0 text-muted small">Hidden Fees</p>
                   </div>
                 </div>
@@ -125,7 +129,8 @@
           <div class="row">
             <div class="col-md-6 mb-4">
               <div class="feature-item">
-                <div class="feature-icon">
+                {{-- GOLD GRADIENT: Remove inline style to revert to original purple/blue --}}
+                <div class="feature-icon" style="background: linear-gradient(135deg, #FFD700 0%, #FFA500 50%, #FFD700 100%); color: #fff; width: 70px; height: 70px; line-height: 70px; border-radius: 50%; display: inline-block; font-size: 26px; text-align: center; box-shadow: 0 4px 15px rgba(255, 215, 0, 0.3);">
                   <i class="fa fa-shield"></i>
                 </div>
                 <h5 class="fw-bold">Safe & Secure</h5>
@@ -134,7 +139,8 @@
             </div>
             <div class="col-md-6 mb-4">
               <div class="feature-item">
-                <div class="feature-icon">
+                {{-- GOLD GRADIENT: Remove inline style to revert to original purple/blue --}}
+                <div class="feature-icon" style="background: linear-gradient(135deg, #FFD700 0%, #FFA500 50%, #FFD700 100%); color: #fff; width: 70px; height: 70px; line-height: 70px; border-radius: 50%; display: inline-block; font-size: 26px; text-align: center; box-shadow: 0 4px 15px rgba(255, 215, 0, 0.3);">
                   <i class="fa fa-clock-o"></i>
                 </div>
                 <h5 class="fw-bold">Fast Processing</h5>
@@ -143,7 +149,8 @@
             </div>
             <div class="col-md-6 mb-4">
               <div class="feature-item">
-                <div class="feature-icon">
+                {{-- GOLD GRADIENT: Remove inline style to revert to original purple/blue --}}
+                <div class="feature-icon" style="background: linear-gradient(135deg, #FFD700 0%, #FFA500 50%, #FFD700 100%); color: #fff; width: 70px; height: 70px; line-height: 70px; border-radius: 50%; display: inline-block; font-size: 26px; text-align: center; box-shadow: 0 4px 15px rgba(255, 215, 0, 0.3);">
                   <i class="fa fa-eye"></i>
                 </div>
                 <h5 class="fw-bold">Transparent</h5>
@@ -152,7 +159,8 @@
             </div>
             <div class="col-md-6 mb-4">
               <div class="feature-item">
-                <div class="feature-icon">
+                {{-- GOLD GRADIENT: Remove inline style to revert to original purple/blue --}}
+                <div class="feature-icon" style="background: linear-gradient(135deg, #FFD700 0%, #FFA500 50%, #FFD700 100%); color: #fff; width: 70px; height: 70px; line-height: 70px; border-radius: 50%; display: inline-block; font-size: 26px; text-align: center; box-shadow: 0 4px 15px rgba(255, 215, 0, 0.3);">
                   <i class="fa fa-mobile"></i>
                 </div>
                 <h5 class="fw-bold">Mobile Friendly</h5>
@@ -167,7 +175,8 @@
           <div class="row">
             <div class="col-md-6 mb-4">
               <div class="feature-item">
-                <div class="feature-icon">
+                {{-- GOLD GRADIENT: Remove inline style to revert to original purple/blue --}}
+                <div class="feature-icon" style="background: linear-gradient(135deg, #FFD700 0%, #FFA500 50%, #FFD700 100%); color: #fff; width: 70px; height: 70px; line-height: 70px; border-radius: 50%; display: inline-block; font-size: 26px; text-align: center; box-shadow: 0 4px 15px rgba(255, 215, 0, 0.3);">
                   <i class="fa fa-users"></i>
                 </div>
                 <h5 class="fw-bold">Personal Support</h5>
@@ -176,7 +185,8 @@
             </div>
             <div class="col-md-6 mb-4">
               <div class="feature-item">
-                <div class="feature-icon">
+                {{-- GOLD GRADIENT: Remove inline style to revert to original purple/blue --}}
+                <div class="feature-icon" style="background: linear-gradient(135deg, #FFD700 0%, #FFA500 50%, #FFD700 100%); color: #fff; width: 70px; height: 70px; line-height: 70px; border-radius: 50%; display: inline-block; font-size: 26px; text-align: center; box-shadow: 0 4px 15px rgba(255, 215, 0, 0.3);">
                   <i class="fa fa-cogs"></i>
                 </div>
                 <h5 class="fw-bold">Smart Automation</h5>
@@ -185,7 +195,8 @@
             </div>
             <div class="col-md-6 mb-4">
               <div class="feature-item">
-                <div class="feature-icon">
+                {{-- GOLD GRADIENT: Remove inline style to revert to original purple/blue --}}
+                <div class="feature-icon" style="background: linear-gradient(135deg, #FFD700 0%, #FFA500 50%, #FFD700 100%); color: #fff; width: 70px; height: 70px; line-height: 70px; border-radius: 50%; display: inline-block; font-size: 26px; text-align: center; box-shadow: 0 4px 15px rgba(255, 215, 0, 0.3);">
                   <i class="fa fa-heart"></i>
                 </div>
                 <h5 class="fw-bold">Community Focused</h5>
@@ -194,7 +205,8 @@
             </div>
             <div class="col-md-6 mb-4">
               <div class="feature-item">
-                <div class="feature-icon">
+                {{-- GOLD GRADIENT: Remove inline style to revert to original purple/blue --}}
+                <div class="feature-icon" style="background: linear-gradient(135deg, #FFD700 0%, #FFA500 50%, #FFD700 100%); color: #fff; width: 70px; height: 70px; line-height: 70px; border-radius: 50%; display: inline-block; font-size: 26px; text-align: center; box-shadow: 0 4px 15px rgba(255, 215, 0, 0.3);">
                   <i class="fa fa-star"></i>
                 </div>
                 <h5 class="fw-bold">Proven Track Record</h5>
@@ -218,12 +230,14 @@
           <div class="col-md-6 mb-4">
             <div class="testimonial-card p-4" style="background: #f8f9fa; border-radius: 15px; box-shadow: 0 5px 15px rgba(0,0,0,0.1);">
               <div class="mb-3">
-                <i class="fa fa-quote-left" style="color: #667eea; font-size: 24px;"></i>
+                {{-- GOLD GRADIENT: Remove inline style to revert to original purple/blue --}}
+                <i class="fa fa-quote-left" style="color: #FFD700; font-size: 24px; text-shadow: 0 2px 4px rgba(255, 215, 0, 0.3);"></i>
               </div>
               <p class="text-muted mb-3">"The process was so simple and fast. I had my money the same day I applied. The staff was incredibly helpful and made everything stress-free."</p>
               <div class="d-flex align-items-center">
                 <div class="me-3">
-                  <div style="width: 40px; height: 40px; background: linear-gradient(135deg, #667eea, #764ba2); border-radius: 50%; display: flex; align-items: center; justify-content: center; color: white;">
+                  {{-- GOLD GRADIENT: Remove inline style to revert to original purple/blue --}}
+                  <div style="width: 40px; height: 40px; background: linear-gradient(135deg, #FFD700 0%, #FFA500 50%, #FFD700 100%); border-radius: 50%; display: flex; align-items: center; justify-content: center; color: white; box-shadow: 0 4px 15px rgba(255, 215, 0, 0.3);">
                     <i class="fa fa-user"></i>
                   </div>
                 </div>
@@ -237,12 +251,14 @@
           <div class="col-md-6 mb-4">
             <div class="testimonial-card p-4" style="background: #f8f9fa; border-radius: 15px; box-shadow: 0 5px 15px rgba(0,0,0,0.1);">
               <div class="mb-3">
-                <i class="fa fa-quote-left" style="color: #667eea; font-size: 24px;"></i>
+                {{-- GOLD GRADIENT: Remove inline style to revert to original purple/blue --}}
+                <i class="fa fa-quote-left" style="color: #FFD700; font-size: 24px; text-shadow: 0 2px 4px rgba(255, 215, 0, 0.3);"></i>
               </div>
               <p class="text-muted mb-3">"I was worried about my credit score, but they looked at my whole financial picture. The rates were better than my credit card!"</p>
               <div class="d-flex align-items-center">
                 <div class="me-3">
-                  <div style="width: 40px; height: 40px; background: linear-gradient(135deg, #667eea, #764ba2); border-radius: 50%; display: flex; align-items: center; justify-content: center; color: white;">
+                  {{-- GOLD GRADIENT: Remove inline style to revert to original purple/blue --}}
+                  <div style="width: 40px; height: 40px; background: linear-gradient(135deg, #FFD700 0%, #FFA500 50%, #FFD700 100%); border-radius: 50%; display: flex; align-items: center; justify-content: center; color: white; box-shadow: 0 4px 15px rgba(255, 215, 0, 0.3);">
                     <i class="fa fa-user"></i>
                   </div>
                 </div>

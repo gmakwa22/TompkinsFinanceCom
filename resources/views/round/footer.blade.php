@@ -176,7 +176,8 @@
                         <div class="row align-items-center">
                             <div class="col-md-3 mb-3 mb-md-0">
                                 <div class="d-flex align-items-center justify-content-center">
-                                    <i class="fa fa-shield fa-2x me-3" style="color: #3498db;"></i>
+                                    {{-- GOLD GRADIENT: Change color back to #3498db to revert to original blue --}}
+                                    <i class="fa fa-shield fa-2x me-3" style="color: #FFD700; text-shadow: 0 2px 4px rgba(255, 215, 0, 0.3);"></i>
                                     <div class="text-start">
                                         <div class="text-white fw-bold" style="font-size: 1rem;">SSL Secured</div>
                                         <div class="text-white-50" style="font-size: 0.8rem;">256-bit Encryption</div>
@@ -185,7 +186,8 @@
                             </div>
                             <div class="col-md-3 mb-3 mb-md-0">
                                 <div class="d-flex align-items-center justify-content-center">
-                                    <i class="fa fa-check-circle fa-2x me-3" style="color: #3498db;"></i>
+                                    {{-- GOLD GRADIENT: Change color back to #3498db to revert to original blue --}}
+                                    <i class="fa fa-check-circle fa-2x me-3" style="color: #FFD700; text-shadow: 0 2px 4px rgba(255, 215, 0, 0.3);"></i>
                                     <div class="text-start">
                                         <div class="text-white fw-bold" style="font-size: 1rem;">Licensed</div>
                                         <div class="text-white-50" style="font-size: 0.8rem;">Texas Regulated</div>
@@ -194,7 +196,8 @@
                             </div>
                             <div class="col-md-3 mb-3 mb-md-0">
                                 <div class="d-flex align-items-center justify-content-center">
-                                    <i class="fa fa-clock-o fa-2x me-3" style="color: #3498db;"></i>
+                                    {{-- GOLD GRADIENT: Change color back to #3498db to revert to original blue --}}
+                                    <i class="fa fa-clock-o fa-2x me-3" style="color: #FFD700; text-shadow: 0 2px 4px rgba(255, 215, 0, 0.3);"></i>
                                     <div class="text-start">
                                         <div class="text-white fw-bold" style="font-size: 1rem;">24/7 Support</div>
                                         <div class="text-white-50" style="font-size: 0.8rem;">Always Available</div>
@@ -203,7 +206,8 @@
                             </div>
                             <div class="col-md-3 mb-3 mb-md-0">
                                 <div class="d-flex align-items-center justify-content-center">
-                                    <i class="fa fa-star fa-2x me-3" style="color: #3498db;"></i>
+                                    {{-- GOLD GRADIENT: Change color back to #3498db to revert to original blue --}}
+                                    <i class="fa fa-star fa-2x me-3" style="color: #FFD700; text-shadow: 0 2px 4px rgba(255, 215, 0, 0.3);"></i>
                                     <div class="text-start">
                                         <div class="text-white fw-bold" style="font-size: 1rem;">Trusted</div>
                                         <div class="text-white-50" style="font-size: 0.8rem;">Community Focused</div>
