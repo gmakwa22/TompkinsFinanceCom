@@ -1,0 +1,494 @@
+/* Modern Navigation Bar Styles */
+.modern-navbar {
+    background: linear-gradient(135deg, #000000 0%, #1a1a1a 100%);
+    box-shadow: 0 2px 20px rgba(0, 0, 0, 0.1);
+    padding: 0.2rem 0;
+    transition: all 0.3s ease;
+    z-index: 9999;
+    border: none;
+    margin: 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    min-height: 100px;
+}
+
+/* Header Special Height for Desktop */
+@media (min-width: 992px) {
+    .headerspecial {
+        min-height: 80vh !important;
+        background-size: cover !important;
+        background-position: center !important;
+        margin-top: 100px !important;
+    }
+}
+
+.modern-navbar .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.modern-navbar.scrolled {
+    background: rgba(0, 0, 0, 0.95);
+    backdrop-filter: blur(10px);
+    box-shadow: 0 2px 30px rgba(0, 0, 0, 0.2);
+}
+
+.navbar-logo {
+    height: 84px !important;
+    width: auto !important;
+    max-width: none !important;
+    max-height: none !important;
+    transition: all 0.3s ease;
+}
+
+.navbar-logo:hover {
+    transform: scale(1.05);
+}
+
+/* Ensure navbar brand doesn't constrain logo */
+.navbar-brand {
+    display: flex !important;
+    align-items: center !important;
+    padding: 0 !important;
+    margin: 0 !important;
+    height: auto !important;
+    max-height: none !important;
+}
+
+/* Mobile Toggle Button */
+.navbar-toggler {
+    border: none;
+    padding: 8px;
+    background: transparent;
+    position: relative;
+    width: 40px;
+    height: 40px;
+    margin-right: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    z-index: 10001;
+}
+
+.navbar-toggler:focus {
+    box-shadow: none;
+    outline: none;
+}
+
+/* New Hamburger Icon */
+.hamburger {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 24px;
+    height: 18px;
+    position: relative;
+}
+
+.hamburger .line {
+    display: block;
+    height: 3px;
+    width: 100%;
+    background: #ffffff;
+    border-radius: 2px;
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    transform-origin: center;
+}
+
+/* Hamburger Animation */
+.navbar-toggler.active .hamburger .line:nth-child(1) {
+    transform: rotate(45deg) translate(6px, 6px);
+}
+
+.navbar-toggler.active .hamburger .line:nth-child(2) {
+    opacity: 0;
+    transform: scale(0);
+}
+
+.navbar-toggler.active .hamburger .line:nth-child(3) {
+    transform: rotate(-45deg) translate(6px, -6px);
+}
+
+/* Navigation Links */
+.navbar-nav {
+    align-items: center;
+    margin-right: 0;
+    padding-right: 0;
+    justify-content: flex-end;
+    width: 100%;
+}
+
+/* Align navigation with phone calculator */
+.modern-navbar .navbar-nav {
+    margin-right: 0;
+    padding-right: 0;
+}
+
+/* Ensure proper alignment with phone section */
+@media (min-width: 992px) {
+    .modern-navbar .container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .modern-navbar .navbar-nav {
+        flex: 0 0 auto;
+        margin-left: auto;
+    }
+}
+
+.nav-link {
+    color: #ffffff !important;
+    font-weight: 500;
+    font-size: 1.1rem;
+    padding: 0.8rem 0.8rem !important;
+    margin: 0 0.2rem;
+    border-radius: 25px;
+    transition: all 0.3s ease;
+    position: relative;
+    text-decoration: none;
+}
+
+.nav-link:hover {
+    color: #ffffff !important;
+    background: rgba(255, 255, 255, 0.1);
+    transform: translateY(-2px);
+}
+
+/* Removed underline effect */
+
+/* Special Button Styles */
+.login-link {
+    color: #ecf0f1 !important;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    padding: 0.8rem 0.8rem !important;
+    font-size: 1.1rem;
+}
+
+.login-link:hover {
+    background: rgba(255, 255, 255, 0.1) !important;
+    border-color: #ffffff;
+    color: #ffffff !important;
+}
+
+.apply-btn {
+    background: linear-gradient(45deg, #27ae60, #2ecc71) !important;
+    color: #ffffff !important;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    padding: 0.8rem 0.8rem !important;
+    margin-left: 1rem !important;
+    border-radius: 25px;
+    box-shadow: 0 4px 15px rgba(39, 174, 96, 0.3);
+    transition: all 0.3s ease;
+    position: relative;
+    font-size: 1.1rem;
+    overflow: hidden;
+    animation: navPulse 2s infinite;
+}
+
+.apply-btn::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.4), transparent);
+    transition: left 0.5s;
+}
+
+.apply-btn:hover::before {
+    left: 100%;
+}
+
+.apply-btn:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 20px rgba(39, 174, 96, 0.4);
+    color: #ffffff !important;
+    animation: navGlow 1s infinite;
+}
+
+/* Navigation Apply Button Animations */
+@keyframes navPulse {
+    0% {
+        box-shadow: 0 4px 15px rgba(39, 174, 96, 0.3);
+    }
+    50% {
+        box-shadow: 0 4px 15px rgba(39, 174, 96, 0.6), 0 0 0 8px rgba(39, 174, 96, 0.1);
+    }
+    100% {
+        box-shadow: 0 4px 15px rgba(39, 174, 96, 0.3);
+    }
+}
+
+@keyframes navGlow {
+    0%, 100% {
+        box-shadow: 0 6px 20px rgba(39, 174, 96, 0.4);
+    }
+    50% {
+        box-shadow: 0 6px 20px rgba(39, 174, 96, 0.6), 0 0 20px rgba(39, 174, 96, 0.4);
+    }
+}
+
+/* Mobile Menu Styles */
+@media (max-width: 991.98px) {
+    .modern-navbar {
+        padding: 0.5rem 0;
+        min-height: 200px;
+    }
+
+    .navbar-brand {
+        margin-top: 0;
+        padding-top: 0;
+    }
+
+    /* Hide header section on mobile */
+    .headerspecial {
+        display: none !important;
+    }
+
+    /* Hide video header on mobile */
+    .full-width.headerspecial {
+        display: none !important;
+    }
+
+    /* Hide video header section on mobile */
+    .slider-parallax {
+        display: none !important;
+    }
+
+    /* Push content down below navbar on mobile */
+    .modern-navbar + * {
+        margin-top: 0 !important;
+        padding-top: 0 !important;
+    }
+
+    /* Add top margin to first content section after navbar */
+    .modern-navbar ~ section:first-of-type,
+    .modern-navbar ~ div:first-of-type section:first-of-type {
+        margin-top: 80px !important;
+        padding-top: 10px !important;
+    }
+
+    .headermarg {
+        margin-top: 30% !important;
+    }
+
+    .slider-parallax {
+        height: 60vh !important;
+    }
+
+    .navbar-toggler {
+        margin-right: 20px;
+        z-index: 10001;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .navbar-collapse {
+        background: rgba(44, 62, 80, 0.98);
+        backdrop-filter: blur(10px);
+        border-radius: 10px;
+        margin-top: 1rem;
+        padding: 1rem;
+        box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+        position: absolute;
+        top: 100%;
+        left: 15px;
+        right: 15px;
+        z-index: 10000;
+        display: none;
+        transition: all 0.3s ease;
+    }
+
+    .navbar-collapse.show {
+        display: block !important;
+        animation: slideDown 0.3s ease-out;
+    }
+
+    @keyframes slideDown {
+        from {
+            opacity: 0;
+            transform: translateY(-10px);
+        }
+        to {
+            opacity: 1;
+            transform: translateY(0);
+        }
+    }
+
+    .navbar-nav {
+        text-align: center;
+    }
+
+    .nav-item {
+        margin: 0.3rem 0;
+    }
+
+    .nav-link {
+        padding: 0.8rem 1rem !important;
+        margin: 0.2rem 0;
+        display: block;
+        width: 100%;
+        border-radius: 8px;
+    }
+
+    .apply-btn {
+        margin-top: 1rem;
+        width: 100%;
+        text-align: center;
+    }
+
+    .login-link {
+        border: none;
+        background: rgba(255, 255, 255, 0.1);
+    }
+}
+
+/* Navbar Spacer */
+.navbar-spacer {
+    height: 120px;
+    margin: 0;
+    padding: 0;
+    background: transparent;
+}
+
+/* Smooth Scrolling */
+html {
+    scroll-behavior: smooth;
+}
+
+/* Remove any default margins/padding that could cause white space */
+body {
+    margin: 0;
+    padding: 0;
+}
+
+/* Push content down below fixed navbar */
+.modern-navbar + * {
+    margin-top: 50px !important;
+    padding-top: 0 !important;
+}
+
+/* Active State */
+.nav-link.active {
+    color: #3498db !important;
+    background: rgba(52, 152, 219, 0.1);
+}
+
+.nav-link.active::after {
+    width: 80%;
+}
+
+/* Dropdown Styles (if needed) */
+.dropdown-menu {
+    background: rgba(44, 62, 80, 0.95);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+}
+
+.dropdown-item {
+    color: #ffffff;
+    padding: 0.75rem 1.5rem;
+    transition: all 0.3s ease;
+}
+
+.dropdown-item:hover {
+    background: rgba(52, 152, 219, 0.2);
+    color: #3498db;
+}
+
+/* Animation for navbar appearance */
+@keyframes slideDown {
+    from {
+        transform: translateY(-100%);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+.modern-navbar {
+    animation: slideDown 0.5s ease-out;
+}
+
+/* Responsive adjustments */
+@media (max-width: 576px) {
+    .navbar-logo {
+        height: 120px;
+    }
+
+    .navbar-spacer {
+        height: 250px;
+    }
+
+    .nav-link {
+        font-size: 0.9rem;
+        padding: 0.7rem 1rem !important;
+    }
+
+    /* Ensure content starts below navbar on small mobile */
+    .modern-navbar ~ section:first-of-type,
+    .modern-navbar ~ div:first-of-type section:first-of-type {
+        margin-top: 100px !important;
+    }
+}
+
+/* Additional mobile content positioning */
+@media (max-width: 991.98px) {
+    /* Ensure all content sections start below navbar */
+    .modern-navbar ~ .container,
+    .modern-navbar ~ section,
+    .modern-navbar ~ div > section {
+        margin-top: 80px !important;
+    }
+
+    /* Override any existing margins that might interfere */
+    .marketing-service:first-of-type {
+        margin-top: 80px !important;
+    }
+}
+
+/* Fix accordion links - remove underlines */
+.acd-heading {
+    text-decoration: none !important;
+}
+
+.acd-heading:hover {
+    text-decoration: none !important;
+}
+
+.acd-heading:focus {
+    text-decoration: none !important;
+}
+
+.acd-heading:visited {
+    text-decoration: none !important;
+}
+
+/* Custom styling for header tagline mark element */
+.headerspecial mark {
+    background: rgba(0, 0, 0, 0.7) !important;
+    color: white !important;
+    padding: 8px 16px !important;
+    border-radius: 8px !important;
+    font-weight: 600 !important;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3) !important;
+    backdrop-filter: blur(10px) !important;
+    border: 1px solid rgba(255, 255, 255, 0.1) !important;
+    display: inline-block !important;
+}
+

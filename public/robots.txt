@@ -1,0 +1,49 @@
+User-agent: *
+Allow: /
+Allow: /*.js$
+Allow: /*.css$
+Allow: /*.jpg$
+Allow: /*.png$
+Allow: /*.jpeg$
+Allow: /*.gif$
+Disallow: /category/
+Disallow: /author/
+Disallow: /tag/
+
+User-agent: Googlebot
+Allow: /
+Allow: /*.js$
+Allow: /*.css$
+Allow: /*.jpg$
+Allow: /*.png$
+Allow: /*.jpeg$
+Allow: /*.gif$
+Disallow: /category/
+Disallow: /author/
+Disallow: /tag/
+
+User-agent: Googlebot-Mobile
+Allow: /
+Allow: /*.js$
+Allow: /*.css$
+Allow: /*.jpg$
+Allow: /*.png$
+Allow: /*.jpeg$
+Allow: /*.gif$
+Disallow: /category/
+Disallow: /author/
+Disallow: /tag/
+
+User-Agent: bingbot
+Allow: /
+Allow: /*.js$
+Allow: /*.css$
+Allow: /*.jpg$
+Allow: /*.png$
+Allow: /*.jpeg$
+Allow: /*.gif$
+Disallow: /category/
+Disallow: /author/
+Disallow: /tag/
+
+Sitemap: https://getcashfast.ca/sitemap.xml

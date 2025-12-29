@@ -1,0 +1,251 @@
+
+@media (max-width: 767px) 
+{
+	div#app-navbar-collapse 
+	{
+	    background: #2b598b;
+	}
+	.topbar_menu 
+	{
+	    border: none;
+	}
+	.topbarDropdwn .dropdown-menu
+	{
+		background: #e8edf3 !important;
+    	color: #2f2f31;
+	}
+	.navbar-nav {
+	    margin: 0px -15px;
+	}
+	.nav-header
+	{
+		padding:0;
+	}
+	#Enquiry_form
+	{
+	    padding: 20px 20px 30px 25px;
+	}
+	#submit_enquiry
+	{
+		width: 100%;
+	}
+	.circle_text .col-md-4
+	{
+		padding-bottom: 10px;
+	}
+	.contact_dd span:after {
+	    content: '';
+	    display: block;
+	}
+	.contact_dd span {
+		padding-right: 0;
+	}
+	.contact_right
+	{
+		padding-bottom: 30px;
+	}
+	span.edit_profile:before {
+	    content: '';
+	    display: block;
+	}
+	.tab-content {
+	    padding-top: 20px;
+	    padding-left: 2px;
+	    padding-right: 12px;
+	}
+	.responsive_center
+	{
+		text-align: center;
+	}
+	.padding-top
+	{
+		padding-top: 20px;
+	}
+	section.selectChat
+	{
+		padding: 20px 0 !important;
+	}
+	.top_button.active,.top_button
+	{
+	    padding: 10px 5px !important;
+	    font-size: 14px !important;
+	    margin-right: 0 !important;
+	}
+	.messaging
+	{
+		padding: 20px 0 !important;
+	}
+	button.request_meet.btn
+	{
+		font-size: 15px;
+	}
+}
+@media (min-width: 768px) and (max-width: 1024px)
+{
+	.Lower_div
+	{
+		padding: 50px 10px 20px 10px;
+	}
+	.requestChat
+	{
+		font-size: 16px;
+	}
+	.contact_dd span:after {
+	    content: '';
+	    display: block;
+	}
+	.contact_dd span {
+		padding-right: 0;
+	}
+}
+@media (min-width: 360px) and (max-width: 640px) and (orientation:portrait)
+{
+	.raywhitenew
+	{
+		top: 275px;
+	}
+	.req_chat span
+	{
+		bottom: 0; 
+	}
+}
+@media (min-width: 360px) and (max-width: 640px) and (orientation:landscape)
+{
+	.raywhitenew
+	{
+		top: 555px;
+	}
+	.req_chat span
+	{
+		bottom: 0; 
+	}
+}
+@media (min-width: 411px) and (max-width: 731px) and (orientation:portrait)
+{
+	.raywhitenew
+	{
+		top: 326px;
+	}
+	.req_chat span
+	{
+		bottom: 0; 
+	}
+}
+@media (min-width: 411px) and (max-width: 731px) and (orientation:landscape)
+{
+	.raywhitenew
+	{
+		top: 646px;
+	}
+	.req_chat span
+	{
+		bottom: 0; 
+	}
+}
+@media (min-width: 411px) and (max-width: 823px) and (orientation:landscape)
+{
+	.raywhitenew
+	{
+		top: 665px;
+	}
+	.req_chat span
+	{
+		bottom: 0; 
+	}
+}
+@media (min-width: 320px) and (max-width: 568px) and (orientation:portrait)
+{
+	.raywhitenew
+	{
+		top: 235px;
+	}
+	.req_chat span
+	{
+		bottom: 0; 
+	}
+}
+@media (min-width: 320px) and (max-width: 568px) and (orientation:landscape)
+{
+	.raywhitenew
+	{
+		top: 483px;
+	}
+	.req_chat span
+	{
+		bottom: 0; 
+	}
+}
+@media (min-width: 375px) and (max-width: 667px) and (orientation:portrait)
+{
+	.raywhitenew
+	{
+		top: 291px;
+	}
+	.req_chat span
+	{
+		bottom: 0; 
+	}
+}
+@media (min-width: 375px) and (max-width: 667px) and (orientation:landscape)
+{
+	.raywhitenew
+	{
+		top: 582px;
+	}
+	.req_chat span
+	{
+		bottom: 0; 
+	}
+}
+@media (min-width: 414px) and (max-width: 736px) and (orientation:portrait)
+{
+	.raywhitenew
+	{
+		top: 330px;
+	}
+	.req_chat span
+	{
+		bottom: 0; 
+	}
+}
+@media (min-width: 414px) and (max-width: 736px) and (orientation:landscape)
+{
+	.raywhitenew
+	{
+		top: 651px;
+	}
+	.req_chat span
+	{
+		bottom: 0; 
+	}
+}
+@media (min-width: 768px) and (max-width: 1024px) and (orientation:portrait)
+{
+	.raywhitenew
+	{
+		top: 306px;
+	}
+	.req_chat span
+	{
+		bottom: 11px; 
+	}
+	.attachment-main
+	{
+		display: none;
+	}
+}
+@media (min-width: 768px) and (max-width: 1024px) and (orientation:landscape)
+{
+	.raywhitenew
+	{
+		top: 181px;
+	}
+	.req_chat span
+	{
+		bottom: 10px; 
+	}
+	.req_chat
+	{
+		font-size: 16px;
+	}
+}

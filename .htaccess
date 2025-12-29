@@ -1,0 +1,44 @@
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+    RewriteCond %{HTTPS} off
+    RewriteRule ^ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+        
+</IfModule>
+
+<IfModule mod_deflate.c>
+    SetOutputFilter DEFLATE
+    AddOutputFilterByType DEFLATE text/html text/plain text/xml text/css application/javascript application/x-javascript application/json application/xml
+    BrowserMatch ^Mozilla/4 gzip-only-text/html
+    BrowserMatch ^Mozilla/4\.0[678] no-gzip
+    BrowserMatch \bMSIE !no-gzip !gzip-only-text/html
+    Header append Vary User-Agent
+</IfModule>
+
+<IfModule mod_deflate.c>
+    RewriteEngine On
+    RewriteRule ^(.*)$ public/$1 [L]
+
+    ExpiresActive On
+
+    # Cache CSS files
+    ExpiresByType text/css "access plus 1 year"
+
+    # Cache JavaScript files
+    ExpiresByType application/javascript "access plus 1 year"
+
+    <FilesMatch "^(C45/css/custom\.css|C45/js/plugins-jquery\.js|C45/js/custom\.js|C45/js/script\.js|C45/css/responsive\.css|X45/x45\.css|X45/plugins/themify-icons\.css|X45/action-box\.css|C45/css/style\.css|C45/css/typography\.css|C45/css/shortcodes/shortcodes\.css|^X45/action-box\.css|^C45/css/responsive\.css|^X45/plugins/themify-icons\.css|^C45/css/custom\.css|^C45/js/script\.js|^C45/css/typography\.css|^C45/css/shortcodes/shortcodes\.css|^C45/js/custom\.js|^C45/js/plugins-jquery\.js|js/global\.min\.js|js/index\.min\.js|js/backend_js/datepicker\.js|js/strings_en\.min\.js|js/vendor/public_vendor\.js|js/vendor/additional-methods\.min\.js|css/roundslider\.min\.css|css/header1\.css|css/public2\.css|^X45/x45\.css|^C45/js/script\.js|^C45/js/plugins-jquery\.js|^C45/css/custom\.css|^css/mainRe\.css|^css/backend_css/datepicker\.css|^css/animate\.css|^js/common\.min\.js|^css/mediaquery\.css)$">
+        Header set Cache-Control "public, max-age=31536000"
+        Header set Content-Encoding gzip
+        SetOutputFilter DEFLATE
+    </FilesMatch>
+
+    # Add HSTS header (includeSubDomains)
+    Header always set Strict-Transport-Security "max-age=31536000; includeSubDomains"
+</IfModule>
+
+# php -- BEGIN cPanel-generated handler, do not edit
+# Set the “ea-php81” package as the default “PHP” programming language.
+<IfModule mime_module>
+  AddHandler application/x-httpd-ea-php81 .php .php8 .phtml
+</IfModule>
+# php -- END cPanel-generated handler, do not edit

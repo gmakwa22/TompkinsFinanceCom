@@ -1,0 +1,28 @@
+[01-Apr-2024 16:38:54 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/upayx/us.taxcash.com/config/database.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/upayx/us.taxcash.com/config/database.php on line 18
+[01-Apr-2024 16:38:54 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/upayx/us.taxcash.com/config/cache.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/upayx/us.taxcash.com/config/cache.php on line 18
+[01-Apr-2024 16:38:54 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/upayx/us.taxcash.com/config/mail.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/upayx/us.taxcash.com/config/mail.php on line 16
+[01-Apr-2024 16:38:54 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/upayx/us.taxcash.com/config/app.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/upayx/us.taxcash.com/config/app.php on line 18
+[01-Apr-2024 16:38:54 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/upayx/us.taxcash.com/config/sanctum.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/upayx/us.taxcash.com/config/sanctum.php on line 18
+[01-Apr-2024 16:38:54 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/upayx/us.taxcash.com/config/services.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/upayx/us.taxcash.com/config/services.php on line 18
+[01-Apr-2024 16:38:54 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/upayx/us.taxcash.com/config/hashing.php:32
+Stack trace:
+#0 {main}
+  thrown in /home/upayx/us.taxcash.com/config/hashing.php on line 32

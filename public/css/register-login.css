@@ -1,0 +1,36 @@
+#register-login-bg {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+#register-login-bg .bottom-left {
+    position: absolute;
+    bottom: 20px;
+    left: 60px;
+    font-size: 35px;
+}
+#register-login-bg img{
+	height:166px;
+}
+.register_form {
+    padding: 40px 20px;
+}
+.form-mid-panel {
+    padding: 20px 0;
+}
+.form-mid-panel h4 {
+    padding-bottom: 20px;
+    margin-top: 0;
+    color: #000;
+    font-size: 20px;
+}
+.form-top-panel h1
+{
+	color: #1b477f;
+	padding-bottom: 20px;
+}
+.bg_white
+{
+	background: #ffffff;
+}

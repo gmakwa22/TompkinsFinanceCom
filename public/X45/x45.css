@@ -1,0 +1,149 @@
+.choose-X46 {
+	position: relative
+}
+
+
+.buttonClassusa {
+  font-size:15px;
+  font-family:Arial;
+  width:140px;
+  height:50px;
+  border-width:1px;
+  color:#333333;
+  border-color:#ffaa22;
+  font-weight:bold;
+  border-top-left-radius:6px;
+  border-top-right-radius:6px;
+  border-bottom-left-radius:6px;
+  border-bottom-right-radius:6px;
+  box-shadow: 0px 1px 0px 0px #fff6af;
+  text-shadow: 0px 1px 0px #ffee66;
+  background:linear-gradient(#ffec64, #ffab23);
+}
+
+.buttonClassusa:hover {
+  background: linear-gradient(#ffab23, #ffec64);
+}
+
+
+.choose-X46 .choose-X46-content {
+	position: relative;
+	z-index: 2
+}
+
+.choose-X46 .feature-text .feature-icon span,
+.choose-X46 .feature-text .feature-icon i {
+	color: #2db2f1;
+	background: -webkit-gradient(linear, 100% 0, 0 0, from(#3172ba), to(#2db2f1));
+	background: -webkit-linear-gradient(right, #3172ba, #2db2f1);
+	background: -moz-linear-gradient(right, #3172ba, #2db2f1);
+	background: -o-linear-gradient(right, #3172ba, #2db2f1);
+	background: linear-gradient(right, #3172ba, #2db2f1);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent
+}
+
+.choose-X46 .objects-left {
+	top: 0;
+	z-index: 0
+}
+
+.choose-X46 .objects-left .objects-1 {
+	left: 0
+}
+
+.choose-X46 .objects-right {
+	bottom: 0;
+	z-index: 0;
+	top: inherit
+}
+
+.choose-X46 .objects-right .objects-4 {
+	right: 0;
+	bottom: 0;
+	top: inherit
+}
+
+.our-service {
+	position: relative;
+	padding-bottom: 280px;
+	z-index: 1
+}
+
+.objects-left {
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	left: 0;
+	top: 80px;
+	z-index: -1
+}
+
+.objects-left .objects-1 {
+	position: absolute;
+	left: 40px;
+	top: 0
+}
+
+.objects-left .objects-2 {
+	position: absolute;
+	left: 100px;
+	bottom: 170px
+}
+
+.objects-left .objects-3 {
+	position: absolute;
+	left: 50%;
+	bottom: 140px;
+	margin-left: -140px
+}
+
+.objects-right {
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	right: 0;
+	top: 80px;
+	z-index: -1
+}
+
+.objects-right .objects-4 {
+	position: absolute;
+	right: 0;
+	top: 0
+}
+
+.objects-right .objects-5 {
+	position: absolute;
+	right: 0;
+	bottom: 170px
+}
+
+.objects-right .objects-bottom {
+	position: absolute;
+	right: 0;
+	bottom: 0
+}
+
+.marketing-service .feature-text .feature-icon span,
+.marketing-service .feature-text .feature-icon i {
+	padding-left: 0
+}
+
+.marketing-service .feature-text {
+	padding: 60px 40px;
+	border: 1px solid #eee;
+	height: 100%;
+	background: #fff;
+	-webkit-transition: all 0.5s ease-in-out;
+	-o-transition: all 0.5s ease-in-out;
+	-ms-transition: all 0.5s ease-in-out;
+	-moz-transition: all 0.5s ease-in-out;
+	transition: all 0.5s ease-in-out
+}
+
+.marketing-service .feature-text:hover {
+	box-shadow: 0 0 50px rgba(0, 0, 0, .2);
+	position: relative;
+	z-index: 1
+}
