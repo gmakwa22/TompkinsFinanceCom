@@ -15,8 +15,8 @@ class AppServiceProvider extends ServiceProvider
      */
     public function boot()
     {
-      View::share('corpsignin', 'https://taxcashloanorigination.b2clogin.com/taxcashloanorigination.onmicrosoft.com/oauth2/v2.0/authorize?p=B2C_1_sagelogin&client_id=e4e47530-323f-4cf2-865c-47b561f90813&nonce=defaultNonce&redirect_uri=https%3A%2F%2Fpaydayloan.azurewebsites.net%2Fhome%2FIndex%2Fdef%3Asearch%3Arapidcashtodayca&scope=openid&response_type=id_token&prompt=login');
-  View::share('corpregister', 'https://taxcashloanorigination.b2clogin.com/taxcashloanorigination.onmicrosoft.com/oauth2/v2.0/authorize?p=B2C_1_sagesignup&client_id=e4e47530-323f-4cf2-865c-47b561f90813&nonce=defaultNonce&redirect_uri=https%3A%2F%2Fpaydayloan.azurewebsites.net%2Fhome%2FIndex%2Fdef%3Asearch%3Arapidcashtodayca&scope=openid&response_type=id_token&prompt=login');
+      View::share('corpsignin', 'https://taxcashloanorigination.b2clogin.com/taxcashloanorigination.onmicrosoft.com/oauth2/v2.0/authorize?p=B2C_1_Tompkins&client_id=e4e47530-323f-4cf2-865c-47b561f90813&nonce=defaultNonce&redirect_uri=https%3A%2F%2Fpaydayloan.azurewebsites.net%2F&scope=openid&response_type=id_token&prompt=login');
+  View::share('corpregister', 'https://taxcashloanorigination.b2clogin.com/taxcashloanorigination.onmicrosoft.com/oauth2/v2.0/authorize?p=B2C_1_TompkinsSignup&client_id=e4e47530-323f-4cf2-865c-47b561f90813&nonce=defaultNonce&redirect_uri=https%3A%2F%2Fpaydayloan.azurewebsites.net%2F&scope=openid&response_type=id_token&prompt=login');
   View::share('corpname', 'Get Cash Fast');
 //    View::share('corplogo', 'images/megacashbucks.png');
   View::share('corplogo', 'loansusa.png');
