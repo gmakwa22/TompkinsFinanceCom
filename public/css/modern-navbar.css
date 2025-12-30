@@ -217,6 +217,16 @@
     animation: navGlow 1s infinite;
 }
 
+.apply-btn:active,
+.apply-btn:focus,
+.apply-btn.active {
+    background: linear-gradient(135deg, #FFD700 0%, #FFA500 50%, #FFD700 100%) !important;
+    color: #000000 !important;
+    box-shadow: 0 4px 15px rgba(255, 215, 0, 0.3) !important;
+    outline: none !important;
+    transform: translateY(0);
+}
+
 /* Navigation Apply Button Animations */
 @keyframes navPulse {
     0% {
@@ -478,6 +488,27 @@ body {
 
 .acd-heading:visited {
     text-decoration: none !important;
+}
+
+/* Gold gradient accordion styling */
+.accordion.shadow .acd-group.acd-active .acd-heading,
+.accordion.shadow .acd-group .acd-heading:hover,
+.accordion.plus-icon.shadow .acd-group.acd-active .acd-heading,
+.accordion.plus-icon.shadow .acd-group .acd-heading:hover,
+.accordion.animated .acd-group.acd-active .acd-heading,
+.accordion.animated .acd-group .acd-heading:hover,
+.accordion .acd-group.acd-active .acd-heading,
+.accordion .acd-group .acd-heading:hover {
+    background: linear-gradient(135deg, #FFD700 0%, #FFA500 50%, #FFD700 100%) !important;
+    color: #000000 !important;
+    box-shadow: 0 4px 15px rgba(255, 215, 0, 0.3) !important;
+}
+
+.accordion.shadow .acd-group .acd-heading,
+.accordion.plus-icon.shadow .acd-group .acd-heading,
+.accordion.animated .acd-group .acd-heading,
+.accordion .acd-group .acd-heading {
+    color: #000000 !important;
 }
 
 /* Custom styling for header tagline mark element */

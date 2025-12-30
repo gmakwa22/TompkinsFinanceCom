@@ -326,7 +326,7 @@ SEOMeta::addKeyword('Houston payday loans', 'fast loans Houston TX', 'same day l
   public function why_choose_us()
   {
     $track = $this->tracker();
-    $data = ["bannerbg" => "/land/sage-left1.jpg",  "headtxtcolor" => "white", "martop" => "30", "headalign" => "text-center", "headpg" => "THE SHORT TERM HASSLE-FREE LOAN", "headsub" => "The funds you need when you need them.", "safe" => "on"];
+    $data = ["bannerbg" => "/land/51.jpg",  "headtxtcolor" => "white", "martop" => "30", "headalign" => "text-center", "headpg" => "THE SHORT TERM HASSLE-FREE LOAN", "headsub" => "The funds you need when you need them.", "safe" => "on"];
     SEOMeta::setTitle("Why Choose Us in Texas | Trusted Loan Solutions");
     SEOMeta::setDescription("Discover why thousands of Texans choose us for their loan needs. Competitive rates, fast funding, and exceptional customer service in Texas.");
     SEOMeta::addKeyword("why choose us in Texas", "Texas loan benefits", "competitive rates Texas", "fast funding Texas", "exceptional service Texas", "trusted Texas lender");

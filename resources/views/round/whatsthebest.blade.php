@@ -1,3 +1,16 @@
+<style>
+  .choose-X46 .feature-text .feature-icon i {
+    color: #ffffff !important;
+    fill: #ffffff !important;
+  }
+  .choose-X46 .feature-text .feature-icon i::before {
+    color: #ffffff !important;
+  }
+  .choose-X46 .feature-text .feature-icon svg {
+    color: #ffffff !important;
+    fill: #ffffff !important;
+  }
+</style>
 <section class="choose-X46 white-bg page-section-ptb">
   <div class="objects-left">
      <img class="objects-1 img-fluid" src="/X45/03.png" alt="Intime financial help and on-time loans and borrow money with payday loan advance">
@@ -20,8 +33,8 @@
          <div class="row">
             <div class="col-md-6 col-sm-6 mb-30">
               <div class="feature-text text-left">
-                  <div class="feature-icon">
-                  <i class="fa fa-shield" style="font-size: 40px; color: #0a85f3;"></i>
+                  <div class="feature-icon" style="background: linear-gradient(135deg, #FFD700 0%, #FFA500 50%, #FFD700 100%); color: #fff; width: 70px; height: 70px; line-height: 70px; border-radius: 50%; display: inline-block; font-size: 26px; text-align: center; box-shadow: 0 4px 15px rgba(255, 215, 0, 0.3);">
+                  <i class="fa fa-shield" style="color: #ffffff !important;"></i>
                 </div>
                 <div class="feature-info">
                   <h5 style="color:black;">Safe & Secure</h5>
@@ -31,8 +44,8 @@
             </div>
             <div class="col-md-6 col-sm-6 mb-30">
               <div class="feature-text text-left">
-                  <div class="feature-icon">
-                  <i class="fa fa-comments" style="font-size: 40px; color: #0a85f3;"></i>
+                  <div class="feature-icon" style="background: linear-gradient(135deg, #FFD700 0%, #FFA500 50%, #FFD700 100%); color: #fff; width: 70px; height: 70px; line-height: 70px; border-radius: 50%; display: inline-block; font-size: 26px; text-align: center; box-shadow: 0 4px 15px rgba(255, 215, 0, 0.3);">
+                  <i class="fa fa-comments" style="color: #ffffff !important;"></i>
                 </div>
                 <div class="feature-info">
                   <h5 style="color:black;">Expert Support</h5>
@@ -44,8 +57,8 @@
          <div class="row">
             <div class="col-md-6 col-sm-6 mb-30">
               <div class="feature-text text-left">
-                  <div class="feature-icon">
-                  <i class="fa fa-check-circle" style="font-size: 40px; color: #0a85f3;"></i>
+                  <div class="feature-icon" style="background: linear-gradient(135deg, #FFD700 0%, #FFA500 50%, #FFD700 100%); color: #fff; width: 70px; height: 70px; line-height: 70px; border-radius: 50%; display: inline-block; font-size: 26px; text-align: center; box-shadow: 0 4px 15px rgba(255, 215, 0, 0.3);">
+                  <i class="fa fa-check-circle" style="color: #ffffff !important;"></i>
                 </div>
                 <div class="feature-info">
                   <h5 style="color:black;">No Hidden Fees</h5>
@@ -55,8 +68,8 @@
             </div>
             <div class="col-md-6 col-sm-6 mb-30">
               <div class="feature-text text-left">
-                  <div class="feature-icon">
-                  <i class="fa fa-refresh" style="font-size: 40px; color: #0a85f3;"></i>
+                  <div class="feature-icon" style="background: linear-gradient(135deg, #FFD700 0%, #FFA500 50%, #FFD700 100%); color: #fff; width: 70px; height: 70px; line-height: 70px; border-radius: 50%; display: inline-block; font-size: 26px; text-align: center; box-shadow: 0 4px 15px rgba(255, 215, 0, 0.3);">
+                  <i class="fa fa-refresh" style="color: #ffffff !important;"></i>
                 </div>
                 <div class="feature-info">
                   <h5 style="color:black;">Flexibility</h5>
@@ -68,8 +81,8 @@
          <div class="row">
             <div class="col-md-6 col-sm-6 xs-mb-30">
               <div class="feature-text text-left">
-                  <div class="feature-icon">
-                  <i class="fa fa-eye" style="font-size: 40px; color: #0a85f3;"></i>
+                  <div class="feature-icon" style="background: linear-gradient(135deg, #FFD700 0%, #FFA500 50%, #FFD700 100%); color: #fff; width: 70px; height: 70px; line-height: 70px; border-radius: 50%; display: inline-block; font-size: 26px; text-align: center; box-shadow: 0 4px 15px rgba(255, 215, 0, 0.3);">
+                  <i class="fa fa-eye" style="color: #ffffff !important;"></i>
                 </div>
                 <div class="feature-info">
                   <h5 style="color:black;">Transparent</h5>
@@ -79,8 +92,8 @@
             </div>
             <div class="col-md-6 col-sm-6">
               <div class="feature-text text-left">
-                  <div class="feature-icon">
-                  <i class="fa fa-bolt" style="font-size: 40px; color: #0a85f3;"></i>
+                  <div class="feature-icon" style="background: linear-gradient(135deg, #FFD700 0%, #FFA500 50%, #FFD700 100%); color: #fff; width: 70px; height: 70px; line-height: 70px; border-radius: 50%; display: inline-block; font-size: 26px; text-align: center; box-shadow: 0 4px 15px rgba(255, 215, 0, 0.3);">
+                  <i class="fa fa-bolt" style="color: #ffffff !important;"></i>
                 </div>
                 <div class="feature-info">
                   <h5 style="color:black;">Fast</h5>

@@ -10,7 +10,7 @@
                             <i class="fa fa-shield me-2"></i>{{ $privname }}
                         </h6>
                         <p class="text-white-50 mb-4" style="line-height: 1.7; font-size: 1rem;">
-                            Your trusted Houston neighbors, here to help when you need it most. Fast, secure, and transparent lending solutions designed to get you back on track.
+                            Your trusted Austin neighbors, here to help when you need it most. Fast, secure, and transparent lending solutions designed to get you back on track.
                         </p>
 
                         <!-- Contact Info -->
@@ -232,12 +232,12 @@
                     </div>
                     <div class="col-lg-6 col-md-6 text-left text-md-right">
                         <div class="social-icons color-hover">
-                        <span class="text-white-50" style="font-size: 0.9rem;"> "Houston, we have a solution!" - Serving the Bayou City since day
+                        <span class="text-white-50" style="font-size: 0.9rem;"> "Keep Austin Weird!" - Serving the Live Music Capital since day
                             <span class="hover-popup" style="position: relative; cursor: pointer; color: inherit; transition: color 0.2s ease;"
                                   onmouseover="showPopup(this)"
                                   onmouseout="hidePopup(this)">one
                                 <div class="popup-content" style="position: absolute; bottom: 100%; left: 50%; transform: translateX(-50%); background: #2c3e50; color: white; padding: 6px 10px; border-radius: 4px; font-size: 0.75rem; white-space: nowrap; box-shadow: 0 2px 8px rgba(0,0,0,0.4); z-index: 1000; display: none; margin-bottom: 3px; opacity: 0.9;">
-                                    Houston 7
+                                    Austin 1
                                     <div style="position: absolute; top: 100%; left: 50%; transform: translateX(-50%); width: 0; height: 0; border-left: 4px solid transparent; border-right: 4px solid transparent; border-top: 4px solid #2c3e50;"></div>
                         </div>
                             </span>

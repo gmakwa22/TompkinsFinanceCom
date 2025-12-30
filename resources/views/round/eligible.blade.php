@@ -1,6 +1,25 @@
 
 
 </strong>
+<style>
+  .choose-X46 .feature-text .feature-icon i {
+    color: #ffffff !important;
+    fill: #ffffff !important;
+    display: block !important;
+    visibility: visible !important;
+    opacity: 1 !important;
+  }
+  .choose-X46 .feature-text .feature-icon i::before {
+    color: #ffffff !important;
+  }
+  .choose-X46 .feature-text .feature-icon svg {
+    color: #ffffff !important;
+    fill: #ffffff !important;
+  }
+  .choose-X46 .feature-text .feature-icon {
+    color: #ffffff !important;
+  }
+</style>
 <section class="choose-X46 white-bg page-section-ptb">
   <div class="objects-left">
      <img class="objects-1 img-fluid" src="X45/03.png" alt="get cash fast loan usa">
@@ -10,7 +29,7 @@
      <div class="row justify-content-center">
        <div class="col-lg-8">
             <div class="section-title text-center">
-              <h2 class="title" style="color:#3172ba;"><b>Our eligibly requirements are basic.</b></h2>
+              <h2 class="title" style="color:#000000;"><b>Our eligibly requirements are basic.</b></h2>
                <p class="text">
 
               <b>{{$privname}} The hassle-free loan option.</b></p>
@@ -25,8 +44,8 @@
          <div class="row">
             <div class="col-md-6 col-sm-6 mb-30">
               <div class="feature-text text-left">
-                  <div class="feature-icon" style="width: 60px !important; height: 60px !important; background: linear-gradient(135deg, #667eea, #764ba2) !important; border-radius: 50% !important; display: flex !important; align-items: center !important; justify-content: center !important; margin: 0 auto 20px !important; color: white !important; font-size: 24px !important; position: relative !important; top: 0 !important;">
-                  <i class="fa fa-check-circle" style="color: white !important;"></i>
+                  <div class="feature-icon" style="width: 70px !important; height: 70px !important; background: linear-gradient(135deg, #FFD700 0%, #FFA500 50%, #FFD700 100%) !important; border-radius: 50% !important; display: flex !important; align-items: center !important; justify-content: center !important; margin: 0 auto 20px !important; color: white !important; font-size: 26px !important; position: relative !important; top: 0 !important; box-shadow: 0 4px 15px rgba(255, 215, 0, 0.3);">
+                  <i class="fa fa-check-circle" style="color: #ffffff !important; background: transparent !important;"></i>
                 </div>
                 <div class="feature-info">
                   <h5 style="color:black;">Required</h5>
@@ -45,8 +64,8 @@
             </div>
             <div class="col-md-6 col-sm-6 mb-30">
               <div class="feature-text text-left">
-                  <div class="feature-icon" style="width: 60px !important; height: 60px !important; background: linear-gradient(135deg, #667eea, #764ba2) !important; border-radius: 50% !important; display: flex !important; align-items: center !important; justify-content: center !important; margin: 0 auto 20px !important; color: white !important; font-size: 24px !important; position: relative !important; top: 0 !important;">
-                  <i class="fa fa-check-circle" style="color: white !important;"></i>
+                  <div class="feature-icon" style="width: 70px !important; height: 70px !important; background: linear-gradient(135deg, #FFD700 0%, #FFA500 50%, #FFD700 100%) !important; border-radius: 50% !important; display: flex !important; align-items: center !important; justify-content: center !important; margin: 0 auto 20px !important; color: white !important; font-size: 26px !important; position: relative !important; top: 0 !important; box-shadow: 0 4px 15px rgba(255, 215, 0, 0.3);">
+                  <i class="fa fa-check-circle" style="color: #ffffff !important; background: transparent !important;"></i>
                 </div>
                 <div class="feature-info">
                   <h5 style="color:black;">Can I be approved quickly?</h5>
@@ -62,8 +81,8 @@
          <div class="row">
             <div class="col-md-6 col-sm-6 mb-30">
               <div class="feature-text text-left">
-                  <div class="feature-icon" style="width: 60px !important; height: 60px !important; background: linear-gradient(135deg, #667eea, #764ba2) !important; border-radius: 50% !important; display: flex !important; align-items: center !important; justify-content: center !important; margin: 0 auto 20px !important; color: white !important; font-size: 24px !important; position: relative !important; top: 0 !important;">
-                  <i class="fa fa-check-circle" style="color: white !important;"></i>
+                  <div class="feature-icon" style="width: 70px !important; height: 70px !important; background: linear-gradient(135deg, #FFD700 0%, #FFA500 50%, #FFD700 100%) !important; border-radius: 50% !important; display: flex !important; align-items: center !important; justify-content: center !important; margin: 0 auto 20px !important; color: white !important; font-size: 26px !important; position: relative !important; top: 0 !important; box-shadow: 0 4px 15px rgba(255, 215, 0, 0.3);">
+                  <i class="fa fa-check-circle" style="color: #ffffff !important; background: transparent !important;"></i>
                 </div>
                 <div class="feature-info">
                   <h5 style="color:black;">How Much Income do I Need?</h5>
@@ -73,8 +92,8 @@
             </div>
             <div class="col-md-6 col-sm-6 mb-30">
               <div class="feature-text text-left">
-                  <div class="feature-icon" style="width: 60px !important; height: 60px !important; background: linear-gradient(135deg, #667eea, #764ba2) !important; border-radius: 50% !important; display: flex !important; align-items: center !important; justify-content: center !important; margin: 0 auto 20px !important; color: white !important; font-size: 24px !important; position: relative !important; top: 0 !important;">
-                  <i class="fa fa-check-circle" style="color: white !important;"></i>
+                  <div class="feature-icon" style="width: 70px !important; height: 70px !important; background: linear-gradient(135deg, #FFD700 0%, #FFA500 50%, #FFD700 100%) !important; border-radius: 50% !important; display: flex !important; align-items: center !important; justify-content: center !important; margin: 0 auto 20px !important; color: white !important; font-size: 26px !important; position: relative !important; top: 0 !important; box-shadow: 0 4px 15px rgba(255, 215, 0, 0.3);">
+                  <i class="fa fa-check-circle" style="color: #ffffff !important; background: transparent !important;"></i>
                 </div>
                 <div class="feature-info">
                   <h5 style="color:black;">How about repayment?</h5>

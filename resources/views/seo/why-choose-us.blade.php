@@ -300,7 +300,7 @@
     <div class="row">
       <div class="col-lg-12">
         <div class="title mb-30">
-          <h2 class="title" style="color:#0a85f3;"><b>Interest fees &amp; transparency</b></h2>
+          <h2 class="title" style="color:#000000;"><b>Interest fees &amp; transparency</b></h2>
         </div>
         <div class="accordion plus-icon shadow mb-30">
           <div class="acd-group acd-active">
