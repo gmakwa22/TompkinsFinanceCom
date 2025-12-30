@@ -121,9 +121,10 @@ $locations2 = [
 
 .repayment-popover {
     position: fixed;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    top: 50% !important;
+    left: 50% !important;
+    right: auto !important;
+    transform: translate(-50%, -50%) !important;
     background: #91d5f3;
     border-radius: 12px;
     padding: 20px 40px 20px 20px;
@@ -132,6 +133,7 @@ $locations2 = [
     max-width: 320px;
     width: 90%;
     animation: popoverFadeIn 0.3s ease;
+    margin: 0 !important;
 }
 
 @keyframes popoverFadeIn {
@@ -468,14 +470,24 @@ window.addEventListener('load', function() {
             return false;
         }, true);
 
+        // Move popovers to body to avoid positioning issues
+        function showPopoverCentered(popoverElement) {
+            if (!popoverElement) return;
+            
+            // Simply show the popover - CSS class handles the centering
+            popoverElement.style.display = 'block';
+        }
+
         newItem2.addEventListener('click', function(e) {
             e.preventDefault();
             e.stopPropagation();
             e.stopImmediatePropagation();
             // Hide other popover
             if (item3Info) item3Info.style.display = 'none';
-            // Show this popover
-            if (item2Info) item2Info.style.display = 'block';
+            // Show this popover and center it
+            if (item2Info) {
+                showPopoverCentered(item2Info);
+            }
             // Update slider
             updateSliderState(2);
             updateActiveItem(newItem2);
@@ -488,8 +500,10 @@ window.addEventListener('load', function() {
             e.stopImmediatePropagation();
             // Hide other popover
             if (item2Info) item2Info.style.display = 'none';
-            // Show this popover
-            if (item3Info) item3Info.style.display = 'block';
+            // Show this popover and center it
+            if (item3Info) {
+                showPopoverCentered(item3Info);
+            }
             // Update slider
             updateSliderState(3);
             updateActiveItem(newItem3);

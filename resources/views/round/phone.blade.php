@@ -72,13 +72,149 @@ $locations2 = [
 
 
 
+<style>
+/* Gold styling for phone form slider and buttons */
+#top-slider .background {
+    background-color: #FFD700 !important;
+    background: linear-gradient(135deg, #FFD700 0%, #FFA500 50%, #FFD700 100%) !important;
+}
+
+#top-slider .background .scale .background-scale {
+    background-color: #FFA500 !important;
+    background: linear-gradient(135deg, #FFA500 0%, #FFD700 50%, #FFA500 100%) !important;
+}
+
+.terms-slider .items {
+    background-color: #FFD700 !important;
+}
+
+.terms-slider .items .item {
+    background-color: #FFA500 !important;
+}
+
+.terms-slider .progress-line {
+    background-color: #FFA500 !important;
+}
+
+.terms-slider .progress-line .flag {
+    background-color: #FFA500 !important;
+}
+
+.terms-slider .progress-line .flag:after {
+    border-top-color: #FFA500 !important;
+}
+
+.small-button {
+    background-color: #2c3e50 !important;
+    border: 1px solid #34495e !important;
+}
+
+.small-button:hover {
+    background-color: #34495e !important;
+}
+
+.small-button img {
+    filter: brightness(0) invert(1) !important;
+}
+
+/* Repayment Popover Styles */
+.terms-slider {
+    position: relative;
+}
+
+.repayment-popover {
+    position: fixed;
+    top: 50% !important;
+    left: 50% !important;
+    right: auto !important;
+    transform: translate(-50%, -50%) !important;
+    background: #91d5f3;
+    border-radius: 12px;
+    padding: 20px 40px 20px 20px;
+    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.3);
+    z-index: 10000;
+    max-width: 320px;
+    width: 90%;
+    animation: popoverFadeIn 0.3s ease;
+    margin: 0 !important;
+}
+
+@keyframes popoverFadeIn {
+    from {
+        opacity: 0;
+        transform: translate(-50%, -50%) scale(0.9);
+    }
+    to {
+        opacity: 1;
+        transform: translate(-50%, -50%) scale(1);
+    }
+}
+
+.popover-close {
+    position: absolute;
+    top: 8px;
+    right: 8px;
+    background: rgba(0, 0, 0, 0.2);
+    border: none;
+    border-radius: 50%;
+    width: 28px;
+    height: 28px;
+    font-size: 20px;
+    line-height: 1;
+    color: #000;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.2s ease;
+    font-weight: bold;
+}
+
+.popover-close:hover {
+    background: rgba(0, 0, 0, 0.3);
+    transform: scale(1.1);
+}
+
+.item-info-content {
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+    color: black;
+    font-size: 13px;
+    line-height: 1.5;
+}
+
+.item-info-content .item-info-image {
+    margin-top: 3px;
+    background-color: #000;
+    border-radius: 8px;
+    width: 20px;
+    height: 20px;
+    min-width: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+}
+
+.item-info-content .item-info-image img {
+    width: 10px;
+    height: 10px;
+}
+
+.item-info-content p {
+    margin: 0;
+    flex: 1;
+}
+</style>
+
 <section class="phonesection" style="height: 70vh; display: flex; align-items: flex-start; justify-content: center; padding-top: 2vh; position: relative; z-index: 10;">
     <div id="phone" style="height: 85vh; width: 100%; max-width: 650px; position: absolute; top: -5vh; z-index: -1;">
         <div class="phone-form">
-            <form action="">
-                <div class="form-field mt-2" style="margin-top: 20px !important;">
+            <form action="" onsubmit="return false;">
+                <div class="form-field mt-2" style="margin-top: 5px !important;">
                     <label>
-                        <p class="font-weight-bold">What amount would you like to borrow?</p>
+                        <p class="font-weight-bold" style="margin-bottom: 10px;">What amount would you like to borrow?</p>
                     </label>
                     <input type="hidden" name="sum" value="800">
                     <div id="top-slider">
@@ -126,19 +262,16 @@ $locations2 = [
                                 <div class="flag" id="flag">1</div>
                             </div>
                         </div>
-                        <div class="info">
-                            <div class="item-info" id="item2-info">
-                                <div class="item-info-image"><img src="/images2/Phone/exclamation-solid.svg"
-                                        alt="get cash fast"></div>
-                                Two payments loans are only available for customers who get paid weekly, bi-weekly or
-                                twice a month.
+                        <div class="info" style="display: none;"></div>
+                    </div>
+                    
+                    <!-- Repayment info text below selector -->
+                    <div id="repayment-info-text" style="display: none; margin-top: 15px; padding: 12px; background: #91d5f3; border-radius: 8px; font-size: 13px; color: #000; line-height: 1.5;">
+                        <div style="display: flex; align-items: flex-start; gap: 10px;">
+                            <div style="margin-top: 3px; background-color: #000; border-radius: 8px; width: 20px; height: 20px; min-width: 20px; display: flex; align-items: center; justify-content: center; flex-shrink: 0;">
+                                <img src="/images2/Phone/exclamation-solid.svg" alt="info" style="width: 10px; height: 10px; filter: brightness(0) invert(1);">
                             </div>
-                            <div class="item-info" id="item3-info">
-                                <div class="item-info-image"><img src="/images2/Phone/exclamation-solid.svg"
-                                        alt="get cash fast"></div>
-                                Three payments loans are only available for customers who get paid weekly, bi-weekly or
-                                twice a month.
-                            </div>
+                            <p style="margin: 0; flex: 1;" id="repayment-info-message"></p>
                         </div>
                     </div>
                     <input type="hidden" name="term" value="1">
@@ -163,8 +296,9 @@ $locations2 = [
             <input type="hidden" name="state" value="Nevada">
         </div>
 
+        <div style="padding-top: 20px;"></div>
 
-        <a class="buttonn  mt-3" href="{{ Session::get('purl') ?? $corpregister }}">GET STARTED NOW</a>
+        <a class="apply-btn mt-2" href="{{ Session::get('purl') ?? $corpregister }}" style="margin-bottom: 10px; text-decoration: none; display: inline-block; width: auto; margin-left: 0 !important; padding: 0.8rem 2rem !important;">GET STARTED NOW</a>
 
 
     </div>
@@ -236,5 +370,123 @@ document.addEventListener('DOMContentLoaded', function() {
             }
         });
     }
+});
+
+
+// Override the term slider behavior to show popovers
+// This runs after page load to override the original script
+window.addEventListener('load', function() {
+    // Override the original termSlider.hide function to prevent reset
+    if (window.termSlider && window.termSlider.hide) {
+        const originalHide = window.termSlider.hide;
+        window.termSlider.hide = function() {
+            // Don't reset - just hide the info boxes
+            if (this.item2Info) this.item2Info.style.display = "none";
+            if (this.item3Info) this.item3Info.style.display = "none";
+            // Don't reset opacity or any other state
+        };
+    }
+
+    setTimeout(function() {
+        const item1 = document.getElementById('item1');
+        const item2 = document.getElementById('item2');
+        const item3 = document.getElementById('item3');
+        const repaymentInfoText = document.getElementById('repayment-info-text');
+        const repaymentInfoMessage = document.getElementById('repayment-info-message');
+        const progressLine = document.getElementById('progress-line');
+        const flag = document.getElementById('flag');
+        const sumValue = document.getElementsByName('term')[0];
+
+        if (!item1 || !item2 || !item3) return;
+
+        // Store current selection
+        let currentSelection = 1;
+
+        // Update slider visual state
+        function updateSliderState(value) {
+            currentSelection = value;
+            if (flag) flag.innerHTML = value;
+            if (progressLine) {
+                if (value === 1) {
+                    progressLine.style.width = '0%';
+                } else if (value === 2) {
+                    progressLine.style.width = '50%';
+                } else if (value === 3) {
+                    progressLine.style.width = '100%';
+                }
+            }
+            if (sumValue) sumValue.value = value;
+        }
+
+        // Update active item classes
+        function updateActiveItem(selectedItem) {
+            [item1, item2, item3].forEach(item => {
+                if (item) {
+                    if (item === selectedItem) {
+                        item.classList.add('active');
+                    } else {
+                        item.classList.remove('active');
+                    }
+                }
+            });
+        }
+
+        // Remove all existing click handlers by cloning elements
+        function removeAllListeners(element) {
+            const newElement = element.cloneNode(true);
+            element.parentNode.replaceChild(newElement, element);
+            return newElement;
+        }
+
+        const newItem1 = removeAllListeners(item1);
+        const newItem2 = removeAllListeners(item2);
+        const newItem3 = removeAllListeners(item3);
+
+        // Add new event listeners with capture phase to intercept first
+        newItem1.addEventListener('click', function(e) {
+            e.preventDefault();
+            e.stopPropagation();
+            e.stopImmediatePropagation();
+            // Hide repayment info text
+            if (repaymentInfoText) {
+                repaymentInfoText.style.display = 'none';
+            }
+            // Update slider
+            updateSliderState(1);
+            updateActiveItem(newItem1);
+            return false;
+        }, true);
+
+        newItem2.addEventListener('click', function(e) {
+            e.preventDefault();
+            e.stopPropagation();
+            e.stopImmediatePropagation();
+            // Show repayment info text
+            if (repaymentInfoText && repaymentInfoMessage) {
+                repaymentInfoMessage.textContent = 'Two payments loans are only available for customers who get paid weekly, bi-weekly or twice a month.';
+                repaymentInfoText.style.display = 'block';
+            }
+            // Update slider
+            updateSliderState(2);
+            updateActiveItem(newItem2);
+            return false;
+        }, true);
+
+        newItem3.addEventListener('click', function(e) {
+            e.preventDefault();
+            e.stopPropagation();
+            e.stopImmediatePropagation();
+            // Show repayment info text
+            if (repaymentInfoText && repaymentInfoMessage) {
+                repaymentInfoMessage.textContent = 'Three payments loans are only available for customers who get paid weekly, bi-weekly or twice a month.';
+                repaymentInfoText.style.display = 'block';
+            }
+            // Update slider
+            updateSliderState(3);
+            updateActiveItem(newItem3);
+            return false;
+        }, true);
+
+    }, 200);
 });
 </script>
