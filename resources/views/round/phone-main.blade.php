@@ -69,13 +69,54 @@ $locations2 = [
 
 
 
+<style>
+/* Gold styling for phone form slider and buttons */
+#top-slider .background {
+    background-color: #FFD700 !important;
+    background: linear-gradient(135deg, #FFD700 0%, #FFA500 50%, #FFD700 100%) !important;
+}
+
+#top-slider .background .scale .background-scale {
+    background-color: #FFA500 !important;
+    background: linear-gradient(135deg, #FFA500 0%, #FFD700 50%, #FFA500 100%) !important;
+}
+
+.terms-slider .items {
+    background-color: #FFD700 !important;
+}
+
+.terms-slider .items .item {
+    background-color: #FFA500 !important;
+}
+
+.terms-slider .progress-line {
+    background-color: #FFA500 !important;
+}
+
+.terms-slider .progress-line .flag {
+    background-color: #FFA500 !important;
+}
+
+.terms-slider .progress-line .flag:after {
+    border-top-color: #FFA500 !important;
+}
+
+.small-button {
+    background-color: #FFD700 !important;
+}
+
+.small-button:hover {
+    background-color: #FFA500 !important;
+}
+</style>
+
 <section class="phonesection" style="height: 65vh; display: flex; align-items: flex-start; justify-content: center; padding-top: 5vh;">
     <div id="phone" style="height: 80vh; width: 100%; max-width: 650px;">
         <div class="phone-form">
             <form action="">
-                <div class="form-field mt-2" style="margin-top: 20px !important;">
+                <div class="form-field mt-2" style="margin-top: 5px !important;">
                     <label>
-                        <p class="font-weight-bold">What amount would you like to borrow?</p>
+                        <p class="font-weight-bold" style="margin-bottom: 10px;">What amount would you like to borrow?</p>
                     </label>
                     <input type="hidden" name="sum" value="800">
                     <div id="top-slider">
@@ -162,7 +203,7 @@ $locations2 = [
 
         <div style="padding-top: 20px;"></div>
 
-        <a class="buttonn  mt-2" href="{{ Session::get('purl') ?? $corpregister }}" style="margin-bottom: 10px;">GET STARTED NOW</a>
+        <a class="apply-btn mt-2" href="{{ Session::get('purl') ?? $corpregister }}" style="margin-bottom: 10px; text-decoration: none; display: inline-block; width: auto; margin-left: 0 !important; padding: 0.8rem 2rem !important;">GET STARTED NOW</a>
 
 
     </div>
