@@ -69,8 +69,8 @@ $locations2 = [
 
 
 
-<section class="phonesection" style="height: 70vh; display: flex; align-items: flex-start; justify-content: center; padding-top: 5vh;">
-    <div id="phone" style="height: 85vh; width: 100%; max-width: 650px;">
+<section class="phonesection" style="height: 65vh; display: flex; align-items: flex-start; justify-content: center; padding-top: 5vh;">
+    <div id="phone" style="height: 80vh; width: 100%; max-width: 650px;">
         <div class="phone-form">
             <form action="">
                 <div class="form-field mt-2" style="margin-top: 20px !important;">
@@ -160,8 +160,9 @@ $locations2 = [
             <input type="hidden" name="state" value="Nevada">
         </div>
 
+        <div style="padding-top: 20px;"></div>
 
-        <a class="buttonn  mt-3" href="{{ Session::get('purl') ?? $corpregister }}">GET STARTED NOW</a>
+        <a class="buttonn  mt-2" href="{{ Session::get('purl') ?? $corpregister }}" style="margin-bottom: 10px;">GET STARTED NOW</a>
 
 
     </div>

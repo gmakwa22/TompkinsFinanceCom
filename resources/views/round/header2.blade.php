@@ -13,9 +13,9 @@
 .luxury-hero {
   position: relative;
   overflow: visible;
-  min-height: 120vh; /* video height */
+  min-height: 100vh; /* video height */
   padding-top: 6vh;
-  padding-bottom: 18vh;
+  padding-bottom: 2vh;
 }
 
 .luxury-overlay {
@@ -141,8 +141,8 @@
 /* MOBILE */
 @media (max-width: 991px) {
   .luxury-hero {
-    min-height: 140vh;
-    padding-bottom: 24vh;
+    min-height: 100vh;
+    padding-bottom: 2vh;
   }
 
   .headermarg {
