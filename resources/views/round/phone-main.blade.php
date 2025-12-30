@@ -102,11 +102,16 @@ $locations2 = [
 }
 
 .small-button {
-    background-color: #FFD700 !important;
+    background-color: #2c3e50 !important;
+    border: 1px solid #34495e !important;
 }
 
 .small-button:hover {
-    background-color: #FFA500 !important;
+    background-color: #34495e !important;
+}
+
+.small-button img {
+    filter: brightness(0) invert(1) !important;
 }
 
 /* Repayment Popover Styles */
