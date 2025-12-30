@@ -108,12 +108,101 @@ $locations2 = [
 .small-button:hover {
     background-color: #FFA500 !important;
 }
+
+/* Repayment Popover Styles */
+.terms-slider {
+    position: relative;
+}
+
+.repayment-popover {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #91d5f3;
+    border-radius: 12px;
+    padding: 20px 40px 20px 20px;
+    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.3);
+    z-index: 10000;
+    max-width: 320px;
+    width: 90%;
+    animation: popoverFadeIn 0.3s ease;
+}
+
+@keyframes popoverFadeIn {
+    from {
+        opacity: 0;
+        transform: translate(-50%, -50%) scale(0.9);
+    }
+    to {
+        opacity: 1;
+        transform: translate(-50%, -50%) scale(1);
+    }
+}
+
+.popover-close {
+    position: absolute;
+    top: 8px;
+    right: 8px;
+    background: rgba(0, 0, 0, 0.2);
+    border: none;
+    border-radius: 50%;
+    width: 28px;
+    height: 28px;
+    font-size: 20px;
+    line-height: 1;
+    color: #000;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.2s ease;
+    font-weight: bold;
+}
+
+.popover-close:hover {
+    background: rgba(0, 0, 0, 0.3);
+    transform: scale(1.1);
+}
+
+.item-info-content {
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+    color: black;
+    font-size: 13px;
+    line-height: 1.5;
+}
+
+.item-info-content .item-info-image {
+    margin-top: 3px;
+    background-color: #000;
+    border-radius: 8px;
+    width: 20px;
+    height: 20px;
+    min-width: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+}
+
+.item-info-content .item-info-image img {
+    width: 10px;
+    height: 10px;
+}
+
+.item-info-content p {
+    margin: 0;
+    flex: 1;
+}
+
 </style>
 
 <section class="phonesection" style="height: 65vh; display: flex; align-items: flex-start; justify-content: center; padding-top: 5vh;">
     <div id="phone" style="height: 80vh; width: 100%; max-width: 650px;">
         <div class="phone-form">
-            <form action="">
+            <form action="" onsubmit="return false;">
                 <div class="form-field mt-2" style="margin-top: 5px !important;">
                     <label>
                         <p class="font-weight-bold" style="margin-bottom: 10px;">What amount would you like to borrow?</p>
@@ -164,18 +253,23 @@ $locations2 = [
                                 <div class="flag" id="flag">1</div>
                             </div>
                         </div>
-                        <div class="info">
-                            <div class="item-info" id="item2-info">
-                                <div class="item-info-image"><img src="/images2/Phone/exclamation-solid.svg"
-                                        alt="get cash fast"></div>
-                                Two payments loans are only available for customers who get paid weekly, bi-weekly or
-                                twice a month.
+                        <div class="info" style="display: none;"></div>
+                        
+                        <!-- Popover for 2 repayments -->
+                        <div class="repayment-popover" id="item2-info" style="display: none;">
+                            <button type="button" class="popover-close" id="close-item2-info" aria-label="Close">×</button>
+                            <div class="item-info-content">
+                                <div class="item-info-image"><img src="/images2/Phone/exclamation-solid.svg" alt="get cash fast"></div>
+                                <p>Two payments loans are only available for customers who get paid weekly, bi-weekly or twice a month.</p>
                             </div>
-                            <div class="item-info" id="item3-info">
-                                <div class="item-info-image"><img src="/images2/Phone/exclamation-solid.svg"
-                                        alt="get cash fast"></div>
-                                Three payments loans are only available for customers who get paid weekly, bi-weekly or
-                                twice a month.
+                        </div>
+                        
+                        <!-- Popover for 3 repayments -->
+                        <div class="repayment-popover" id="item3-info" style="display: none;">
+                            <button type="button" class="popover-close" id="close-item3-info" aria-label="Close">×</button>
+                            <div class="item-info-content">
+                                <div class="item-info-image"><img src="/images2/Phone/exclamation-solid.svg" alt="get cash fast"></div>
+                                <p>Three payments loans are only available for customers who get paid weekly, bi-weekly or twice a month.</p>
                             </div>
                         </div>
                     </div>
@@ -275,5 +369,176 @@ document.addEventListener('DOMContentLoaded', function() {
             }
         });
     }
+});
+
+// Repayment popover functions
+function closeRepaymentPopover(popoverId) {
+    const popover = document.getElementById(popoverId);
+    if (popover) {
+        popover.style.display = 'none';
+        // Selection is maintained - slider state stays at 2 or 3
+    }
+}
+
+// Override the term slider behavior to show popovers
+// This runs after page load to override the original script
+window.addEventListener('load', function() {
+    // Override the original termSlider.hide function to prevent reset
+    if (window.termSlider && window.termSlider.hide) {
+        const originalHide = window.termSlider.hide;
+        window.termSlider.hide = function() {
+            // Don't reset - just hide the info boxes
+            if (this.item2Info) this.item2Info.style.display = "none";
+            if (this.item3Info) this.item3Info.style.display = "none";
+            // Don't reset opacity or any other state
+        };
+    }
+
+    setTimeout(function() {
+        const item1 = document.getElementById('item1');
+        const item2 = document.getElementById('item2');
+        const item3 = document.getElementById('item3');
+        const item2Info = document.getElementById('item2-info');
+        const item3Info = document.getElementById('item3-info');
+        const progressLine = document.getElementById('progress-line');
+        const flag = document.getElementById('flag');
+        const sumValue = document.getElementsByName('term')[0];
+
+        if (!item1 || !item2 || !item3) return;
+
+        // Store current selection
+        let currentSelection = 1;
+
+        // Update slider visual state
+        function updateSliderState(value) {
+            currentSelection = value;
+            if (flag) flag.innerHTML = value;
+            if (progressLine) {
+                if (value === 1) {
+                    progressLine.style.width = '0%';
+                } else if (value === 2) {
+                    progressLine.style.width = '50%';
+                } else if (value === 3) {
+                    progressLine.style.width = '100%';
+                }
+            }
+            if (sumValue) sumValue.value = value;
+        }
+
+        // Update active item classes
+        function updateActiveItem(selectedItem) {
+            [item1, item2, item3].forEach(item => {
+                if (item) {
+                    if (item === selectedItem) {
+                        item.classList.add('active');
+                    } else {
+                        item.classList.remove('active');
+                    }
+                }
+            });
+        }
+
+        // Remove all existing click handlers by cloning elements
+        function removeAllListeners(element) {
+            const newElement = element.cloneNode(true);
+            element.parentNode.replaceChild(newElement, element);
+            return newElement;
+        }
+
+        const newItem1 = removeAllListeners(item1);
+        const newItem2 = removeAllListeners(item2);
+        const newItem3 = removeAllListeners(item3);
+
+        // Add new event listeners with capture phase to intercept first
+        newItem1.addEventListener('click', function(e) {
+            e.preventDefault();
+            e.stopPropagation();
+            e.stopImmediatePropagation();
+            // Hide all popovers
+            if (item2Info) item2Info.style.display = 'none';
+            if (item3Info) item3Info.style.display = 'none';
+            // Update slider
+            updateSliderState(1);
+            updateActiveItem(newItem1);
+            return false;
+        }, true);
+
+        newItem2.addEventListener('click', function(e) {
+            e.preventDefault();
+            e.stopPropagation();
+            e.stopImmediatePropagation();
+            // Hide other popover
+            if (item3Info) item3Info.style.display = 'none';
+            // Show this popover
+            if (item2Info) item2Info.style.display = 'block';
+            // Update slider
+            updateSliderState(2);
+            updateActiveItem(newItem2);
+            return false;
+        }, true);
+
+        newItem3.addEventListener('click', function(e) {
+            e.preventDefault();
+            e.stopPropagation();
+            e.stopImmediatePropagation();
+            // Hide other popover
+            if (item2Info) item2Info.style.display = 'none';
+            // Show this popover
+            if (item3Info) item3Info.style.display = 'block';
+            // Update slider
+            updateSliderState(3);
+            updateActiveItem(newItem3);
+            return false;
+        }, true);
+
+        // When closing popover, maintain the selection
+        function closeRepaymentPopover(popoverId) {
+            const popover = document.getElementById(popoverId);
+            if (popover) {
+                popover.style.display = 'none';
+                // Maintain current selection - don't reset
+                // The slider state is already set and will persist
+                
+                // Prevent any script from resetting by re-applying the current state
+                const currentValue = sumValue ? parseInt(sumValue.value) : currentSelection;
+                if (currentValue === 2 || currentValue === 3) {
+                    // Re-apply the state to prevent reset
+                    updateSliderState(currentValue);
+                    if (currentValue === 2 && newItem2) {
+                        updateActiveItem(newItem2);
+                    } else if (currentValue === 3 && newItem3) {
+                        updateActiveItem(newItem3);
+                    }
+                }
+            }
+        }
+
+        // Add close button event listeners
+        const closeBtn2 = document.getElementById('close-item2-info');
+        const closeBtn3 = document.getElementById('close-item3-info');
+
+        if (closeBtn2) {
+            closeBtn2.addEventListener('click', function(e) {
+                e.preventDefault();
+                e.stopPropagation();
+                e.stopImmediatePropagation();
+                closeRepaymentPopover('item2-info');
+                return false;
+            }, true);
+        }
+
+        if (closeBtn3) {
+            closeBtn3.addEventListener('click', function(e) {
+                e.preventDefault();
+                e.stopPropagation();
+                e.stopImmediatePropagation();
+                closeRepaymentPopover('item3-info');
+                return false;
+            }, true);
+        }
+
+        // Make function globally available
+        window.closeRepaymentPopover = closeRepaymentPopover;
+    }, 200);
 });
 </script>
