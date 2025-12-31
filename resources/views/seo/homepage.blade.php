@@ -128,7 +128,7 @@
 ================================ */
 
 .section {
-  padding: 6rem 0;
+  padding: 2rem 0;
 }
 
 .section-header {
@@ -191,6 +191,125 @@
   .hero-title {
     font-size: 2.4rem;
   }
+}
+</style>
+
+<style>
+/* ===============================
+   LUXURY FEATURE SECTION (Matching Hero)
+================================ */
+
+.page-section-ptb.luxury-features {
+  background: linear-gradient(135deg, #0f172a 0%, #111827 100%);
+  color: #f8f8f8;
+  position: relative;
+  overflow: hidden;
+  backdrop-filter: blur(8px);
+}
+
+/* Section header */
+.luxury-features .section-header {
+  text-align: center;
+  margin-bottom: 4rem;
+}
+
+.luxury-features .section-header h2 {
+  font-size: 2.8rem;
+  font-weight: 800;
+  color: #f5b922ff; /* gold from hero */
+  text-shadow: 0 6px 18px rgba(0,0,0,0.4);
+  margin-bottom: 1rem;
+}
+
+.luxury-features .section-header p {
+  font-size: 1.1rem;
+  color: #d1d5db;
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+/* Feature Card */
+.feature-item {
+  background: rgba(55,65,81,0.85); /* slightly lighter dark card */
+  border-radius: 18px;
+  padding: 2rem 1.5rem;
+  margin-bottom: 2.5rem;
+  text-align: center;
+  box-shadow: 0 12px 35px rgba(0,0,0,0.25);
+  border: 1px solid rgba(212,175,55,0.2);
+  transition: transform 0.35s ease, box-shadow 0.35s ease;
+}
+
+.feature-item:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 20px 50px rgba(212,175,55,0.2);
+}
+
+/* Icon */
+.feature-icon {
+  background: rgba(31,41,55,0.9);
+  color: #fcc740ff;
+  width: 70px;
+  height: 70px;
+  line-height: 70px;
+  border-radius: 50%;
+  display: inline-block;
+  font-size: 26px;
+  text-align: center;
+  margin-bottom: 1.25rem;
+  box-shadow: 0 4px 15px rgba(212,175,55,0.15);
+  transition: transform 0.35s ease, box-shadow 0.35s ease;
+  animation: floatIcon 3s ease-in-out infinite alternate;
+}
+
+.feature-item:hover .feature-icon {
+  transform: scale(1.15);
+  box-shadow: 0 8px 25px rgba(212,175,55,0.25);
+}
+
+/* Floating effect */
+@keyframes floatIcon {
+  0% { transform: translateY(0); }
+  50% { transform: translateY(-6px); }
+  100% { transform: translateY(0); }
+}
+
+/* Headings & Text */
+.feature-item h5 {
+  color: #f5bc2eff;
+  font-weight: 700;
+  margin: 0.5rem 0;
+  font-size: 1.25rem;
+}
+
+.feature-item p {
+  color: #e5e7eb;
+  font-size: 0.95rem;
+  line-height: 1.6;
+}
+
+/* Responsive */
+@media(max-width: 991px){
+  .feature-item { margin-bottom: 2rem; }
+}
+
+@media(max-width: 576px){
+  .section-header h2 { font-size: 2rem; }
+  .feature-icon {
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    font-size: 22px;
+  }
+}
+
+/* Hover text color adjustment */
+.feature-item:hover h5 {
+  color: #c2a550ff; /* brighter gold on hover */
+}
+
+.feature-item:hover p {
+  color: #282f3bff; /* brighter text on hover */
 }
 </style>
 
@@ -289,75 +408,62 @@
   </div>
 </section>
 
+<!-- What's the Best Loan for You? Section -->
 
-<!-- What's the Best Loan for You Section -->
-<section class="page-section-ptb" style="background: #f8f9fa;">
+<section class="page-section-ptb luxury-features">
   <div class="container">
-    <div class="row">
-      <div class="col-lg-12 text-center mb-5">
-        <h2 class="display-5 fw-bold" style="color: #2c3e50;">What's the Best Loan for You?</h2>
-        <p class="lead text-muted">Forget those line-ups down at the brick-and-mortar joint. You can apply for this loan from the comfort of your couch. Our advanced assessment tools instantly determine your eligibility.</p>
-      </div>
+
+    <div class="section-header">
+      <h2>What's the Best Loan for You?</h2>
+      <p>Forget those line-ups down at the brick-and-mortar joint. Apply from the comfort of your couch. Our advanced assessment tools instantly determine your eligibility.</p>
     </div>
+
     <div class="row">
-      <div class="col-lg-4 col-md-6 mb-4">
+      <div class="col-lg-4 col-md-6">
         <div class="feature-item">
-          {{-- GOLD GRADIENT: Remove inline style to revert to original purple/blue --}}
-          <div class="feature-icon" style="background: linear-gradient(135deg, #FFD700 0%, #FFA500 50%, #FFD700 100%); color: #fff; width: 70px; height: 70px; line-height: 70px; border-radius: 50%; display: inline-block; font-size: 26px; text-align: center; box-shadow: 0 4px 15px rgba(255, 215, 0, 0.3);">
-            <i class="fa fa-shield"></i>
-          </div>
-          <h5 class="fw-bold">Safe & Secure</h5>
-          <p class="text-muted">Completely confidential and secure, guaranteed! We use the same high security standards like the banks.</p>
+          <div class="feature-icon"><i class="fa fa-shield"></i></div>
+          <h5>Safe & Secure</h5>
+          <p>Completely confidential and secure, guaranteed! We use the same high security standards like the banks.</p><br>
         </div>
       </div>
-      <div class="col-lg-4 col-md-6 mb-4">
+
+      <div class="col-lg-4 col-md-6">
         <div class="feature-item">
-          {{-- GOLD GRADIENT: Remove inline style to revert to original purple/blue --}}
-          <div class="feature-icon" style="background: linear-gradient(135deg, #FFD700 0%, #FFA500 50%, #FFD700 100%); color: #fff; width: 70px; height: 70px; line-height: 70px; border-radius: 50%; display: inline-block; font-size: 26px; text-align: center; box-shadow: 0 4px 15px rgba(255, 215, 0, 0.3);">
-            <i class="fa fa-comments"></i>
-          </div>
-          <h5 class="fw-bold">Expert Support</h5>
-          <p class="text-muted">Our support staff is always ready and available to answer any questions that you may have to ensure you get the loan you need.</p>
+          <div class="feature-icon"><i class="fa fa-comments"></i></div>
+          <h5>Expert Support</h5>
+          <p>Our support staff is always ready and available to answer any questions that you may have to ensure you get the loan you need.</p>
         </div>
       </div>
-      <div class="col-lg-4 col-md-6 mb-4">
+
+      <div class="col-lg-4 col-md-6">
         <div class="feature-item">
-          {{-- GOLD GRADIENT: Remove inline style to revert to original purple/blue --}}
-          <div class="feature-icon" style="background: linear-gradient(135deg, #FFD700 0%, #FFA500 50%, #FFD700 100%); color: #fff; width: 70px; height: 70px; line-height: 70px; border-radius: 50%; display: inline-block; font-size: 26px; text-align: center; box-shadow: 0 4px 15px rgba(255, 215, 0, 0.3);">
-            <i class="fa fa-check-circle"></i>
-          </div>
-          <h5 class="fw-bold">No Hidden Fees</h5>
-          <p class="text-muted">Our lending process has no hidden fees. What you see is what you get. That's our promise as fully compliant licensed lenders.</p>
+          <div class="feature-icon"><i class="fa fa-check-circle"></i></div>
+          <h5>No Hidden Fees</h5>
+          <p>Our lending process has no hidden fees. What you see is what you get. That's our promise as fully compliant licensed lenders.</p>
         </div>
       </div>
-      <div class="col-lg-4 col-md-6 mb-4">
+
+      <div class="col-lg-4 col-md-6">
         <div class="feature-item">
-          {{-- GOLD GRADIENT: Remove inline style to revert to original purple/blue --}}
-          <div class="feature-icon" style="background: linear-gradient(135deg, #FFD700 0%, #FFA500 50%, #FFD700 100%); color: #fff; width: 70px; height: 70px; line-height: 70px; border-radius: 50%; display: inline-block; font-size: 26px; text-align: center; box-shadow: 0 4px 15px rgba(255, 215, 0, 0.3);">
-            <i class="fa fa-refresh"></i>
-          </div>
-          <h5 class="fw-bold">Flexibility</h5>
-          <p class="text-muted">Your interest fee is unchanged, whether it's better for you to pay in 1, 2 or 3 equal repayments.</p>
+          <div class="feature-icon"><i class="fa fa-refresh"></i></div>
+          <h5>Flexibility</h5>
+          <p>Your interest fee is unchanged, whether it's better for you to pay in 1, 2 or 3 equal repayments.</p><br>
         </div>
       </div>
-      <div class="col-lg-4 col-md-6 mb-4">
+
+      <div class="col-lg-4 col-md-6">
         <div class="feature-item">
-          {{-- GOLD GRADIENT: Remove inline style to revert to original purple/blue --}}
-          <div class="feature-icon" style="background: linear-gradient(135deg, #FFD700 0%, #FFA500 50%, #FFD700 100%); color: #fff; width: 70px; height: 70px; line-height: 70px; border-radius: 50%; display: inline-block; font-size: 26px; text-align: center; box-shadow: 0 4px 15px rgba(255, 215, 0, 0.3);">
-            <i class="fa fa-eye"></i>
-          </div>
-          <h5 class="fw-bold">Transparent</h5>
-          <p class="text-muted">Our lending process has no hidden fees. What you see is what you get. That's our promise as fully compliant licensed lenders.</p>
+          <div class="feature-icon"><i class="fa fa-eye"></i></div>
+          <h5>Transparent</h5>
+          <p>Our lending process has no hidden fees. What you see is what you get. That's our promise as fully compliant licensed lenders.</p>
         </div>
       </div>
-      <div class="col-lg-4 col-md-6 mb-4">
+
+      <div class="col-lg-4 col-md-6">
         <div class="feature-item">
-          {{-- GOLD GRADIENT: Remove inline style to revert to original purple/blue --}}
-          <div class="feature-icon" style="background: linear-gradient(135deg, #FFD700 0%, #FFA500 50%, #FFD700 100%); color: #fff; width: 70px; height: 70px; line-height: 70px; border-radius: 50%; display: inline-block; font-size: 26px; text-align: center; box-shadow: 0 4px 15px rgba(255, 215, 0, 0.3);">
-            <i class="fa fa-bolt"></i>
-          </div>
-          <h5 class="fw-bold">Fast</h5>
-          <p class="text-muted">You'll know instantly when you're approved for your loan and what repayment schedule of 1, 2 or 3 installments best suits your needs.</p>
+          <div class="feature-icon"><i class="fa fa-bolt"></i></div>
+          <h5>Fast</h5>
+          <p>You'll know instantly when you're approved for your loan and what repayment schedule of 1, 2 or 3 installments best suits your needs.</p>
         </div>
       </div>
     </div>
@@ -369,8 +475,25 @@
   <div class="container">
     <div class="row">
       <div class="col-lg-12 text-center mb-5">
-        <h2 class="display-5 fw-bold" style="color: #2c3e50;">Why Choose {{$privname}}?</h2>
-        <p class="lead text-muted">Here are the key reasons why we're the top choice for responsible lending</p>
+        <h2 class="display-5 fw-bold" 
+    style="
+      color: #fac338ff; /* luxury gold fill */
+      text-shadow: 2px 2px 6px rgba(0,0,0,0.25); /* soft shadow for depth */
+      -webkit-text-stroke: 1px rgba(0, 0, 0, 0.8); /* dark gold border/outline */
+      letter-spacing: 1px;
+    ">
+  Why Choose {{$privname}}?
+</h2>
+<p class="lead" 
+   style="
+     color: #4b4b4b; 
+     text-shadow: 0 1px 2px rgba(245,210,122,0.2);
+     max-width: 700px; 
+     margin: 0.5rem auto 0;
+   ">
+  Here are the key reasons why we're the top choice for responsible lending
+</p>
+
       </div>
     </div>
     <div class="row">
@@ -410,44 +533,144 @@
   </div>
 </section>
 
-<!-- Ready to Get Started Section -->
-<section class="page-section-ptb" style="background: #2c3e50;">
+<style>
+/* ===============================
+   MODERN LUXURY "WHY CHOOSE US"
+================================ */
+
+.luxury-why-choose {
+  padding: 6rem 0;
+  background: #f8f9fa; /* light neutral for contrast with gold */
+}
+
+.luxury-why-choose .section-header {
+  text-align: center;
+  margin-bottom: 4rem;
+}
+
+.luxury-why-choose .section-header h2 {
+  font-size: 2.8rem;
+  font-weight: 800;
+  color: #FFD700; /* gold fill */
+  text-shadow: 2px 2px 6px rgba(0,0,0,0.25); /* subtle shadow for depth */
+  -webkit-text-stroke: 0.8px rgba(212,175,55,0.8); /* dark gold outline */
+  letter-spacing: 1px;
+}
+
+.luxury-why-choose .section-header p {
+  font-size: 1.1rem;
+  color: #4b4b4b;
+  text-shadow: 0 1px 2px rgba(245,210,122,0.2);
+  max-width: 700px;
+  margin: 0.5rem auto 0;
+}
+
+/* Card container */
+.luxury-why-choose .modern-card {
+  background: white;
+  border-radius: 20px;
+  padding: 2rem;
+  height: 100%;
+  box-shadow: 0 12px 35px rgba(0,0,0,0.08);
+  border: 1px solid rgba(212,175,55,0.2);
+  transition: transform 0.35s ease, box-shadow 0.35s ease;
+}
+
+.luxury-why-choose .modern-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 20px 50px rgba(212,175,55,0.25);
+}
+
+/* Feature icon */
+.luxury-why-choose .feature-icon {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background: linear-gradient(135deg, #FFD700 0%, #FFA500 50%, #FFD700 100%);
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 22px;
+  box-shadow: 0 6px 20px rgba(212,175,55,0.3);
+  transition: transform 0.35s ease, box-shadow 0.35s ease;
+}
+
+.luxury-why-choose .modern-card:hover .feature-icon {
+  transform: scale(1.15);
+  box-shadow: 0 12px 30px rgba(212,175,55,0.4);
+}
+
+/* Card titles */
+.luxury-why-choose .modern-card h4 {
+  font-weight: 700;
+  margin-bottom: 1rem;
+  color: #2c3e50;
+  transition: color 0.35s ease;
+}
+
+.luxury-why-choose .modern-card:hover h4 {
+  color: #3e2f1a; /* subtle gold-dark hover */
+}
+
+/* Card text */
+.luxury-why-choose .modern-card p {
+  color: #6b7280;
+  line-height: 1.6;
+  transition: color 0.35s ease;
+}
+
+.luxury-why-choose .modern-card:hover p {
+  color: #4b4940;
+}
+
+/* Responsive adjustments */
+@media(max-width: 768px){
+  .luxury-why-choose .feature-icon {
+    width: 50px;
+    height: 50px;
+    font-size: 20px;
+  }
+}
+</style>
+
+<section class="page-section-ptb luxury-why-choose">
   <div class="container">
-    <div class="row align-items-center">
-      <div class="col-lg-8">
-        <div class="cta-content text-white">
-          <h2 class="display-6 fw-bold mb-3 text-white">Ready to Get Started?</h2>
-          <p class="lead mb-4 text-white">Join thousands of satisfied customers who trust our fast, secure, and transparent loan process.</p>
-          <div class="cta-features">
-            <div class="row">
-              <div class="col-md-4">
-                <div class="cta-feature">
-                  <i class="fa fa-check-circle text-success"></i>
-                  <span>No Credit Check</span>
-                </div>
-              </div>
-              <div class="col-md-4">
-                <div class="cta-feature">
-                  <i class="fa fa-check-circle text-success"></i>
-                  <span>Instant Approval</span>
-                </div>
-              </div>
-              <div class="col-md-4">
-                <div class="cta-feature">
-                  <i class="fa fa-check-circle text-success"></i>
-                  <span>5-Minute Transfer</span>
-                </div>
-              </div>
+    <!-- Section Header -->
+    <div class="row">
+      <div class="col-lg-12 section-header">
+        <h2>Why Choose {{$privname}}?</h2>
+        <p>Here are the key reasons why we're the top choice for responsible lending</p>
+      </div>
+    </div>
+
+    <!-- Feature Cards -->
+    <div class="row g-4">
+      <div class="col-lg-6">
+        <div class="modern-card d-flex align-items-start">
+          <div class="me-3">
+            <div class="feature-icon">
+              <i class="fa fa-credit-card"></i>
             </div>
+          </div>
+          <div>
+            <h4>No Credit Check Required</h4>
+            <p>A less-than-perfect credit history shouldn't stand in your way. We focus on your current capacity to fulfill repayments rather than past difficulties.</p>
           </div>
         </div>
       </div>
-      <div class="col-lg-4 text-center">
-        <div class="cta-button">
-          <a href="{{$corpregister}}" class="btn btn-primary btn-lg px-5 py-3 shine-button">
-            Apply Now
-          </a>
-          <p class="text-white-50 mt-3 mb-0">Get approved in minutes</p>
+
+      <div class="col-lg-6">
+        <div class="modern-card d-flex align-items-start">
+          <div class="me-3">
+            <div class="feature-icon">
+              <i class="fa fa-clock-o"></i>
+            </div>
+          </div>
+          <div>
+            <h4>High Approval Rates</h4>
+            <p>Our streamlined process allows you to secure a loan effortlessly from home. In most instances, loans are disbursed within minutes using our cutting-edge approval system.</p>
+          </div>
         </div>
       </div>
     </div>
