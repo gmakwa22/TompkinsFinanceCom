@@ -78,12 +78,12 @@
   <div class="container">
     <div class="row">
       <div class="col-lg-8 mx-auto text-center">
-        <h2 class="display-6 fw-bold mb-4" style="color: #2c3e50;">Your Houston Neighbors, Here to Help</h2>
+        <h2 class="display-6 fw-bold mb-4" style="color: #2c3e50;">Your Austin Neighbors, Here to Help</h2>
         <p class="lead text-muted mb-4">
-          We know Houston. We know what it's like when your car overheats on the 610 loop, when a sudden downpour finds a leak in your roof, or when the bill comes due before the paycheck does. At Sage Endeavours, we're not just located in Houston; we're part of the community.
+          We know Austin. We know what it's like when your car breaks down on I-35 during rush hour, when a sudden Texas thunderstorm finds a leak in your roof, or when SXSW ends but the bills keep coming. We understand the struggle when your AC gives out in the middle of a 100-degree summer day, or when you need cash before payday hits. At {{ $privname }}, we're not just located in Austin; we're part of the community that keeps Austin weird.
         </p>
         <p class="text-muted mb-4">
-          We're run by people who live and work here, and we're built on a simple promise: to provide a fast, respectful, and transparent financial hand-up when you need it most. Our process is designed to be as straightforward and hassle-free as possible, because you have enough on your plate. We're proud to serve our community with honesty and respect, providing a short-term solution to help you navigate life's little surprises and get back on track.
+          We're run by people who live and work here—people who know what it's like to navigate Mopac traffic, grab breakfast tacos on the go, and catch live music on Sixth Street. We're built on a simple promise: to provide a fast, respectful, and transparent financial hand-up when you need it most. Our process is designed to be as straightforward and hassle-free as possible, because between work, traffic, and keeping up with Austin's vibrant lifestyle, you have enough on your plate. We're proud to serve our community with honesty and respect, providing a short-term solution to help you navigate life's little surprises and get back on track.
         </p>
         <p class="text-muted mb-4">
           Our loan application process is incredibly simple and designed with you in mind. Our dedicated staff members are genuinely excited to help you get approved - they're not just processing applications, they're your personal advocates. From the moment you start your application to the moment funds hit your account, our team is there to guide you through every step, answer any questions, and ensure you have the best possible experience. We believe everyone deserves a fair chance, and our staff's enthusiasm for helping you succeed shows in every interaction.

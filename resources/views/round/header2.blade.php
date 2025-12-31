@@ -184,7 +184,7 @@
       <div class="col-lg-7 headermarg text-center text-lg-left">
         <div class="page-title-name luxury-title-box">
           <h1 class="display-2 headertext font-weight-bold luxury-title">
-            {{ $headpg ?? "HOUSTON'S MOST RELIABLE PAYDAY LOAN" }}
+            {{ $headpg ?? "AUSTIN'S MOST RELIABLE PAYDAY LOAN" }}
           </h1>
 
           <p class="luxury-subtitle">
