@@ -81,9 +81,9 @@ class HomeController extends Controller
   {
     $track = $this->tracker();
     $data = ["bannerbg" => "land/51.jpg", "licpr" => "on", "headpg" => "CONTACT US TODAY!", "headtxtcolor" => "white", "headphonehide" => "hide", "headsub" => "We're always happy to hear from you.", "phonesmall" => "Phone: +0 (000) 000-0000", "safe" => "on"];
-    SEOMeta::setTitle('Contact Tompkins Finance | Houston Payday Loan Experts | Get Help Now');
-    SEOMeta::setDescription('Need help with your payday loan application? Contact Tompkins Finance in Houston, TX. Our friendly team is here to assist with quick cash advances and answer all your loan questions.');
-    SEOMeta::addKeyword('Houston payday loan contact', 'Tompkins Finance contact', 'Houston loan help', 'payday loan customer service Houston', 'Houston cash advance support', 'Texas loan assistance', 'Houston financial help');
+    SEOMeta::setTitle('Contact Tompkins Finance | Austin Payday Loan Experts | Get Help Now');
+    SEOMeta::setDescription('Need help with your payday loan application? Contact Tompkins Finance in Austin, TX. Our friendly team is here to assist with quick cash advances and answer all your loan questions.');
+    SEOMeta::addKeyword('Austin payday loan contact', 'Tompkins Finance contact', 'Austin loan help', 'payday loan customer service Austin', 'Austin cash advance support', 'Texas loan assistance', 'Austin financial help');
     return view('contact', $data);
   }
 
@@ -92,8 +92,8 @@ class HomeController extends Controller
     $track = $this->tracker();
     $data = ["bannerbg" => "land/sage-male7.jpg", "licpr" => "on", "headpg" => "PRIVACY POLICY", "headtxtcolor" => "white", "headphonehide" => "hide", "headalt" => "Tompkins Finance Privacy Policy - Your Privacy is our Priority", "safe" => "on"];
     SEOMeta::setTitle('Tompkins Finance Privacy Policy | Protecting Your Information');
-    SEOMeta::setDescription('Learn how Tompkins Finance protects your personal information and maintains your privacy. Read our privacy policy to understand our commitment to your security in Houston, Texas.');
-    SEOMeta::addKeyword('Tompkins Finance privacy policy', 'Texas data protection', 'personal information security Houston', 'online loan company privacy policy Texas', 'Houston privacy policy');
+    SEOMeta::setDescription('Learn how Tompkins Finance protects your personal information and maintains your privacy. Read our privacy policy to understand our commitment to your security in Austin, Texas.');
+    SEOMeta::addKeyword('Tompkins Finance privacy policy', 'Texas data protection', 'personal information security Austin', 'online loan company privacy policy Texas', 'Austin privacy policy');
     return view('privacy-policy', $data);
   }
 
@@ -162,9 +162,9 @@ SEOMeta::addKeyword('Real Estate Investments, AI-Driven Business Opportunities, 
 
 
 $data = ["bannerbg" => "land/$monthday.jpg", "headalign" => "text-center", "licpopwarning" => "kwartaloans", "martop" => "20",  "headtxtcolor" => "white", "safe" => "on"];
-SEOMeta::setTitle('Tompkins Finance | Fast Payday Loans in Houston, Texas | Same Day Approval');
-SEOMeta::setDescription('Get fast payday loans in Houston, TX with Tompkins Finance. Quick approval, competitive rates, and same-day funding for Harris County residents. Apply online now for instant cash advances!');
-SEOMeta::addKeyword('Houston payday loans', 'fast loans Houston TX', 'same day loans Houston', 'quick cash Houston Texas', 'Houston cash advance', 'payday loans Harris County', 'emergency loans Houston', 'Houston loan approval');
+SEOMeta::setTitle('Tompkins Finance | Fast Payday Loans in Austin, Texas | Same Day Approval');
+SEOMeta::setDescription('Get fast payday loans in Austin, TX with Tompkins Finance. Quick approval, competitive rates, and same-day funding for Harris County residents. Apply online now for instant cash advances!');
+SEOMeta::addKeyword('Austin payday loans', 'fast loans Austin TX', 'same day loans Austin', 'quick cash Austin Texas', 'Austin cash advance', 'payday loans Harris County', 'emergency loans Austin', 'Austin loan approval');
 
     }
 
@@ -212,27 +212,27 @@ SEOMeta::addKeyword('Houston payday loans', 'fast loans Houston TX', 'same day l
   {
     $track = $this->tracker();
     $data = ["bannerbg" => "land/15.jpg", "martop" => "20", "licpr" => "on", "spprov" => "Be Informed", "headpg" => "FREQUENTLY ASKED QUESTIONS", "headtxtcolor" => "white", "headsub" => "Here are answers to the questions you ask most often", "headphonehide" => "hide", "headalign" => "text-center", "safe" => "on"];
-    SEOMeta::setTitle('Tompkins Finance FAQ | Houston Payday Loan Questions Answered');
-    SEOMeta::setDescription('Get answers to your payday loan questions in Houston, TX. Our FAQ covers loan requirements, approval process, repayment terms, and everything you need to know about Tompkins Finance loans.');
-    SEOMeta::addKeyword('Houston payday loan FAQ', 'Tompkins Finance questions', 'payday loan help Houston', 'Houston cash advance FAQ', 'Texas loan questions', 'Houston financial FAQ', 'payday loan information Houston');
+    SEOMeta::setTitle('Tompkins Finance FAQ | Austin Payday Loan Questions Answered');
+    SEOMeta::setDescription('Get answers to your payday loan questions in Austin, TX. Our FAQ covers loan requirements, approval process, repayment terms, and everything you need to know about Tompkins Finance loans.');
+    SEOMeta::addKeyword('Austin payday loan FAQ', 'Tompkins Finance questions', 'payday loan help Austin', 'Austin cash advance FAQ', 'Texas loan questions', 'Austin financial FAQ', 'payday loan information Austin');
     return view('faq', $data);
   }
 
   public function Responsible_lending()
   {
     $data = ["bannerbg" => "land/sage-male3.jpg", "licpr" => "on", "headpg" => "WE LEND RESPONSIBLY", "headtxtcolor" => "white", "headphonehide" => "hide", "safe" => "on"];
-    SEOMeta::setTitle('Tompkins Finance Responsible Lending | Ethical Payday Loans in Houston, TX');
-    SEOMeta::setDescription("Learn about Tompkins Finance' responsible lending practices in Houston, Texas. We're committed to ethical payday loans with transparent terms, fair rates, and borrower protection.");
-    SEOMeta::addKeyword('Houston responsible payday loans', 'Tompkins Finance ethical lending', 'Texas responsible cash advances', 'Houston fair loan practices', 'transparent payday loans Texas', 'responsible lending Houston TX');
+    SEOMeta::setTitle('Tompkins Finance Responsible Lending | Ethical Payday Loans in Austin, TX');
+    SEOMeta::setDescription("Learn about Tompkins Finance' responsible lending practices in Austin, Texas. We're committed to ethical payday loans with transparent terms, fair rates, and borrower protection.");
+    SEOMeta::addKeyword('Austin responsible payday loans', 'Tompkins Finance ethical lending', 'Texas responsible cash advances', 'Austin fair loan practices', 'transparent payday loans Texas', 'responsible lending Austin TX');
     return view('responsible_lending', $data);
   }
   public function Terms()
   {
     $track = $this->tracker();
     $data = ["bannerbg" => "land/sage-girl4.jpg", "licpr" => "on", "headpg" => "TERMS AND CONDITIONS", "headtxtcolor" => "white", "headphonehide" => "hide", "safe" => "on"];
-    SEOMeta::setTitle('Tompkins Finance Terms and Conditions | Houston Payday Loan Agreement');
-    SEOMeta::setDescription('Read our terms and conditions for Tompkins Finance payday loans in Houston, TX. Understand your loan agreement, repayment terms, and borrower rights.');
-    SEOMeta::addKeyword('Houston payday loan terms', 'Tompkins Finance loan agreement', 'Texas payday loan conditions', 'Houston cash advance terms', 'payday loan contract Houston', 'Houston loan terms and conditions');
+    SEOMeta::setTitle('Tompkins Finance Terms and Conditions | Austin Payday Loan Agreement');
+    SEOMeta::setDescription('Read our terms and conditions for Tompkins Finance payday loans in Austin, TX. Understand your loan agreement, repayment terms, and borrower rights.');
+    SEOMeta::addKeyword('Austin payday loan terms', 'Tompkins Finance loan agreement', 'Texas payday loan conditions', 'Austin cash advance terms', 'payday loan contract Austin', 'Austin loan terms and conditions');
     return view('terms-conditions', $data);
   }
   public function borrow_money()
