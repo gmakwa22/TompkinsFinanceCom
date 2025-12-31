@@ -106,6 +106,11 @@
                         </h6>
                         <ul class="addresss-info" style="list-style: none; padding: 0;">
                             <li class="mb-2">
+                                <a href="{{ url('/payday-loans-austin') }}" class="footer-link" style="color: rgba(255,255,255,0.7); text-decoration: none; transition: all 0.3s ease; display: flex; align-items: center;" onmouseover="this.style.color='#3498db'; this.style.paddingLeft='8px'" onmouseout="this.style.color='rgba(255,255,255,0.7)'; this.style.paddingLeft='0'">
+                                    <i class="fa fa-arrow-right me-2" style="font-size: 0.8rem;"></i>Austin
+                                </a>
+                            </li>
+                            <li class="mb-2">
                                 <a href="{{ url('/payday-loans-houston') }}" class="footer-link" style="color: rgba(255,255,255,0.7); text-decoration: none; transition: all 0.3s ease; display: flex; align-items: center;" onmouseover="this.style.color='#3498db'; this.style.paddingLeft='8px'" onmouseout="this.style.color='rgba(255,255,255,0.7)'; this.style.paddingLeft='0'">
                                     <i class="fa fa-arrow-right me-2" style="font-size: 0.8rem;"></i>Houston
                                 </a>
@@ -118,11 +123,6 @@
                             <li class="mb-2">
                                 <a href="{{ url('/payday-loans-san-antonio') }}" class="footer-link" style="color: rgba(255,255,255,0.7); text-decoration: none; transition: all 0.3s ease; display: flex; align-items: center;" onmouseover="this.style.color='#3498db'; this.style.paddingLeft='8px'" onmouseout="this.style.color='rgba(255,255,255,0.7)'; this.style.paddingLeft='0'">
                                     <i class="fa fa-arrow-right me-2" style="font-size: 0.8rem;"></i>San Antonio
-                                </a>
-                            </li>
-                            <li class="mb-2">
-                                <a href="{{ url('/payday-loans-austin') }}" class="footer-link" style="color: rgba(255,255,255,0.7); text-decoration: none; transition: all 0.3s ease; display: flex; align-items: center;" onmouseover="this.style.color='#3498db'; this.style.paddingLeft='8px'" onmouseout="this.style.color='rgba(255,255,255,0.7)'; this.style.paddingLeft='0'">
-                                    <i class="fa fa-arrow-right me-2" style="font-size: 0.8rem;"></i>Austin
                                 </a>
                             </li>
                             <li class="mb-2">

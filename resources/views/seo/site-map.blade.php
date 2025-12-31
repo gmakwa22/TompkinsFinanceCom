@@ -30,10 +30,10 @@
 
        <h4 class="theme-color"><a href="{{url('/payday-loans-texas')}}"> Texas </a></h4>
          <ul>
+<li><a href='/payday-loans-austin'><i class='fa fa-star'></i> Austin </a></li>
 <li><a href='/payday-loans-houston'><i class='fa fa-star'></i> Houston </a></li>
 <li><a href='/payday-loans-san-antonio'><i class='fa fa-star'></i> San Antonio </a></li>
 <li><a href='/payday-loans-dallas'><i class='fa fa-star'></i> Dallas </a></li>
-<li><a href='/payday-loans-austin'><i class='fa fa-star'></i> Austin </a></li>
 <li><a href='/payday-loans-fort-worth'><i class='fa fa-star'></i> Fort Worth </a></li>
 <li><a href='/payday-loans-el-paso'><i class='fa fa-star'></i> El Paso </a></li>
 <li><a href='/payday-loans-arlington'><i class='fa fa-star'></i> Arlington </a></li>
