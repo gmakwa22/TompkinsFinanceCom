@@ -26,7 +26,7 @@
                             border-radius: 12px;
                             z-index: 1;
                         "></div>
-                        <div class="float-element element-2" style="
+                        <div class="float-element element-2" style="$headpg $headpg 
                             position: absolute;
                             bottom: 30%;
                             right: -10px;
@@ -484,7 +484,7 @@
                         <div class="comparison-item">
                             <div class="d-flex align-items-center mb-2">
                                 <div class="me-3">
-                                    <i class="fas fa-check-circle" style="color: #D4AF37;"></i>
+                                    <i class="fas fa-check-circle" style="color: #0daf36ff;"></i>
                                 </div>
                                 <h6 class="mb-0" style="color: #FFFFFF;">Tompkins Finance</h6>
                             </div>
