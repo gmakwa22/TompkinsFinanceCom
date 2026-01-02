@@ -159,22 +159,23 @@
             <!-- Right Column: Headings & Stats -->
 <div class="col-lg-6 order-lg-2 order-1 text-center">
 
-    <!-- Main Heading (centered) -->
-    <h1 class="display-3 fw-bold mb-4" style="
-        text-align:center; 
-        background: linear-gradient(135deg, #D4AF37 0%, #F4E4A6 50%, #D4AF37 100%);
-        -webkit-background-clip: text;
-        -webkit-text-fill-color: transparent;
-        background-clip: text;
-        line-height: 1.2;
-    ">
-        Fast Payday Loans
-        <br>
+<!-- Main Heading (centered) -->
+<h1 class="display-3 fw-bold mb-4" style="
+    text-align:center; 
+    background: linear-gradient(135deg, #D4AF37 0%, #F4E4A6 50%, #D4AF37 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    line-height: 1.2;
+">
+    Fast Payday Loans
+</h1>
+
 <!-- Badge outside the blurred container -->
 <div style="text-align:center; position: relative; z-index: 10; margin-top: 20px;">
     <div class="luxury-badge" style="
         display: inline-block;
-        background: #1a1a1a; /* fully opaque to avoid blur */
+        background: #1a1a1a; /* fully opaque background to avoid blur */
         border: 2px solid #D4AF37;
         border-radius: 50px;
         padding: 8px 20px;
@@ -182,11 +183,12 @@
         font-weight: 500;
         letter-spacing: 1px;
         color: #FFFFFF; /* white text */
-        text-shadow: 0 1px 2px rgba(255, 255, 255, 1);
+        text-shadow: none; /* remove shadow for crispness */
     ">
         <i class="fas fa-map-marker-alt me-2"></i>Serving Austin, TX
     </div>
 </div>
+
 
 
 
@@ -229,7 +231,7 @@
         <div class="col-md-4">
             <div class="stat-card text-center" style="background: rgba(26,26,26,0.6); border: 1px solid rgba(212,175,55,0.2); border-radius:16px; padding:24px; backdrop-filter: blur(10px);">
                 <div class="stat-icon mb-3" style="width:48px; height:48px; background: linear-gradient(135deg,#D4AF37 0%,#B8860B 100%); border-radius:12px; display:flex; align-items:center; justify-content:center; color:#0a0a0a; font-size:20px; margin:0 auto 12px auto;"><i class="fas fa-coins"></i></div>
-                <h3 style="color:#D4AF37; font-size:2.5rem; font-weight:700; margin-bottom:8px;">$5K</h3>
+                <h3 style="color:#D4AF37; font-size:2.5rem; font-weight:700; margin-bottom:8px;">$5,000</h3>
                 <p style="color:#B0B0B0; font-size:14px; letter-spacing:1px; margin:0;">MAX AMOUNT</p>
             </div>
         </div>
