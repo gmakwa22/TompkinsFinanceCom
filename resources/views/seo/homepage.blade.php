@@ -6,7 +6,7 @@
 :root {
   --gold: #FFD700;
   --gold-soft: rgba(255, 215, 0, 0.2);
-  --dark: #0f172a;
+  --dark: #000000ff;
   --dark-soft: #111827;
   --text-light: #e5e7eb;
 }
@@ -18,7 +18,7 @@
 .blend-hero {
   position: relative;
   padding: 7rem 0 6rem;
-  background: linear-gradient(135deg, #0f172a 0%, #111827 100%);
+  background: linear-gradient(135deg, #000000ff 0%, #111827 100%);
   overflow: hidden;
   color: white;
 }
@@ -200,7 +200,7 @@
 ================================ */
 
 .page-section-ptb.luxury-features {
-  background: linear-gradient(135deg, #0f172a 0%, #111827 100%);
+  background: linear-gradient(135deg, #000000ff 0%, #111827 100%);
   color: #f8f8f8;
   position: relative;
   overflow: hidden;
